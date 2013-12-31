@@ -12,24 +12,28 @@
 	bottom: 0;
 	right: auto !important;
 	padding: 5px 20px !important;
-	height: 220px;
+	height: 135px;
 	width: 100%;
 	text-align: left;
 	background: url('../images/opacity06.png');
 	background: rgba(0,0,0,0.6);
+	
+	h1 {
+		font-size: 40px;
+	}
 }
 
 .carousel-indicators{
 	left: auto;
 	right: 40px;
-	bottom: 155px !important;
+	bottom: 75px !important;
 	width: auto;
 	margin: 0;
 }
 
 #info-boxes {
 	position: absolute;
-	top: 420px;
+	top: 520px;
 	z-index: 10;
 	padding: 0 20px;
 }
@@ -57,5 +61,5 @@
 }
 
 #home-content {
-	margin-top: 180px;
+	margin-top: 280px;
 }
