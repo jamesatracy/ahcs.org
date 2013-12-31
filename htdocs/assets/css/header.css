@@ -8,3 +8,12 @@
   height: 120px;
   background: transparent url("../images/bkg-header-band.png") top left repeat-x;
 }
+/* line 10, ../scss/header.scss */
+#main-page-header .icons {
+  margin-top: 25px;
+}
+/* line 15, ../scss/header.scss */
+#main-page-header .hospital-portal,
+#main-page-header .portal-portal {
+  margin: 5px 10px;
+}

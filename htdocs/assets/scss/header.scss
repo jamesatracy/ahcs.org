@@ -6,4 +6,13 @@
 	margin: 0;
 	height: 120px;
 	@include background-image($path: 'bkg-header-band.png', $repeat: repeat-x);
+	
+	.icons {
+		margin-top: 25px;
+	}
+	
+	.hospital-portal,
+	.portal-portal {
+		margin: 5px 10px;
+	}
 }

@@ -12,6 +12,7 @@ Router::get("/about/", "View@about")->alias("about");
 Router::get("/job-opportunities/", "View@jobs")->alias("jobs");
 Router::get("/contact/", "View@contact")->alias("contact");
 Router::get("/pavillion-senior-care/", "View@pavillion-senior-care")->alias("pavillion-senior-care");
+Router::get("/coming-soon/", "View@coming-soon")->alias("coming-soon");
 
 // 404 Error
 function handle404($response) {
