@@ -6,8 +6,8 @@
 			</a>
 		</div>
 		<div class="icons pull-right">
-			<a href="https://srvahcsptweb.myahcs.org" title="Hospital Portal" target="_blank"><img class="hospital-portal" src="<?php echo $this->url("/assets/images/hospital-portal-icon.jpg"); ?>" width="43" height="60" alt="Hospital Portal"/></a>
-			<a href="<?php echo $this->urlAlias('coming-soon'); ?>" title="Patient Portal"><img class="patient-portal" src="<?php echo $this->url("/assets/images/patient-portal-icon.jpg"); ?>" width="53" height="60" alt="Patient Portal"/></a>
+			<a href="https://srvahcsptweb.myahcs.org" title="Hospital Patient Portal" target="_blank"><img class="hospital-portal" src="<?php echo $this->url("/assets/images/hospital-portal-icon.jpg"); ?>" width="43" height="60" alt="Hospital Patient Portal"/></a>
+			<a href="<?php echo $this->urlAlias('coming-soon'); ?>" title="Clinical Patient Portal"><img class="patient-portal" src="<?php echo $this->url("/assets/images/patient-portal-icon.jpg"); ?>" width="53" height="60" alt="Clincial Patient Portal"/></a>
 		</div>
 	</div>
 </header>
