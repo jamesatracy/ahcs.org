@@ -1,5 +1,6 @@
 <?php 
-$this->extend("layout");
+$this->extend("/layouts/layout");
+
 $this->prepend("css");
 echo Html::stylesheet($this->url("/assets/css/home.css"));
 $this->end();

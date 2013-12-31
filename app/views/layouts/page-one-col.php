@@ -2,7 +2,6 @@
 /**
  * One column page layout.
  */
-$this->extend("layout");
 ?>
 
 <?php $this->define("content"); ?>

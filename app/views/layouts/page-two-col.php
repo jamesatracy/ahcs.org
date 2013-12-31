@@ -1,8 +1,7 @@
 <?php 
 /**
- * One column page layout.
+ * Two column page layout.
  */
-$this->extend("layout");
 ?>
 
 <?php $this->define("content"); ?>

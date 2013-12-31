@@ -1,6 +1,6 @@
 <?php 
-$this->extend("layout");
-$this->extend("page-one-col");
+$this->extend("/layouts/layout");
+$this->extend("/layouts/page-one-col");
 
 $this->title = "Physician &amp; Services Directory";
 $this->pageHeader = "Physician &amp; Services Directory";

@@ -1,6 +1,6 @@
 <?php 
-$this->extend("layout");
-$this->extend("page-two-col");
+$this->extend("/layouts/layout");
+$this->extend("/layouts/page-two-col");
 
 $this->title = "About";
 $this->pageHeader = "About Appling HealthCare";
