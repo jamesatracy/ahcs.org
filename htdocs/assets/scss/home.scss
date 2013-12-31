@@ -1,0 +1,61 @@
+@import "lib";
+
+/* Carousel
+-------------------------------------------------- */
+.carousel-inner {
+	height: 564px;
+}
+
+.carousel-caption {
+	top: auto;
+	left: 0 !important;
+	bottom: 0;
+	right: auto !important;
+	padding: 5px 20px !important;
+	height: 220px;
+	width: 100%;
+	text-align: left;
+	background: url('../images/opacity06.png');
+	background: rgba(0,0,0,0.6);
+}
+
+.carousel-indicators{
+	left: auto;
+	right: 40px;
+	bottom: 155px !important;
+	width: auto;
+	margin: 0;
+}
+
+#info-boxes {
+	position: absolute;
+	top: 420px;
+	z-index: 10;
+	padding: 0 20px;
+}
+
+.hero-col {
+	background: $container-bkg-color url('../images/hero-col-bkg.jpg') left bottom repeat-x;
+	border: 1px solid #fff;
+	padding: 5px 10px;
+	text-align: center;
+	
+	h3 {
+		font-size: 14px;
+		font-weight: bold;
+		margin-top: 5px;
+	}
+	
+	img {
+		@include box-shadow(rgba(100, 100, 100, 0.75) 0 2px 5px);
+	}
+	
+	.desc {
+		height: 46px;
+		margin: 5px 0;
+	}
+}
+
+#home-content {
+	margin-top: 180px;
+}

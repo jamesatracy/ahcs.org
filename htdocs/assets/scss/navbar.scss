@@ -1,0 +1,49 @@
+@import "lib";
+
+/* NAVIGATION BAR OVERRIDES
+-------------------------------------------------- */
+.navbar {
+	background-color: $primary-color;
+	@include min-height(36px);
+	@include box-shadow(rgba(50, 50, 50, 0.75) 0 2px 5px);
+}
+
+.navbar-nav > li {
+	float: left;
+}
+
+.navbar-default {
+	margin-bottom: 0;
+	border: none;
+	z-index: $navbar-z-index;
+	@include border-radius(0, 0);
+	
+	.navbar-text,
+	.navbar-nav > li > a {
+		color: #fff;
+		text-align: center;
+		padding: 8px 20px;
+		font-weight: normal;
+		font-size: 14px;
+	}
+
+	.navbar-nav > li > a:hover,
+	.navbar-nav > li > a:focus {
+		color: $secondary-color;
+	}
+
+	.navbar-nav > .active > a,
+	.navbar-nav > .active > a:hover,
+	.navbar-nav > .active > a:focus {
+		color: #fff;
+		background-color: #2CB72C;
+	}
+
+	.navbar-toggle {
+		border-color: #fff;
+	}
+
+	.navbar-toggle .icon-bar {
+		background-color: #fff;
+	}
+}

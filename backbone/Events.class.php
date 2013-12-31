@@ -1,0 +1,102 @@
+<?php
+/**
+ * Backbone.php
+ * 
+ * @author	James Tracy <james.a.tracy@gmail.com>
+ * @copyright	2012-2013
+ * @license   http://www.opensource.org/licenses/mit-license.php MIT
+ * @link https://github.com/jamesatracy/Backbone.php GitHub Page
+ */
+
+/**
+ * Class for triggering and delegating events and callbacks.
+ *
+ * @since 0.1.0
+ */
+class Events
+{
+	/** @var array List of registered events. Events are registered automatically by calls to bind() */
+	protected static $_events = array();
+	
+	/**
+	 * Bind a callback function to an event
+	 *
+	 * @since 0.1.0
+	 * @param string $event The event name
+	 * @param function|string|array $callable A valid php callback
+	 */
+	public static function bind($event, $callable)
+	{
+		if(!isset(self::$_events[$event])) {
+			self::$_events[$event] = array();
+		}
+		self::$_events[$event][] = $callable;
+	}
+	
+	/**
+	 * Unbind a callback function from an event
+	 *
+	 * @since 0.1.0
+	 * @param string $event The event name
+	 * @param function|string|array $callable Optional. A valid php callback
+	 */
+	public static function unbind($event, $callable = null)
+	{
+		if(isset(self::$_events[$event])) {
+			if($callable == null) {
+				// remove all callbacks
+				self::$_events[$event] = array();
+			} else {
+				foreach(self::$_events[$event] as $index => $callback) {
+					if($callback == $callable) {
+						self::$_events[$event] = array_splice(self::$_events[$event], $index, 1);
+						break;
+					}
+				}
+			}
+		}
+	}
+	
+	/**
+	 * Trigger an event. You can pass as many additional params to trigger
+	 * as you like - listeners will receive them.
+	 *
+	 * @since 0.1.0
+	 * @param string $event The event name
+	 * @return bool False if the event was cancelled, True otherwise
+	 */
+	public static function trigger($event)
+	{
+		$params = array();
+		if(func_num_args() > 1) {
+			$params = array_slice(func_get_args(), 1);
+		}
+		if(isset(self::$_events[$event])) {
+			return self::dispatch(self::$_events[$event], $params);
+		}
+		return null;
+	}
+	
+	/**
+	 * Internal function for dispatching events
+	 *
+	 * @since 0.1.0
+	 * @param array $callbacks The array of event callbacks
+	 * @param mixed $params Parameters to pass along with the event
+	 * @return bool False if the event was cancelled, True otherwise
+	 */
+	protected static function dispatch($callbacks, $params)
+	{
+	    $result = true;
+		foreach($callbacks as $callable) {
+			$result = call_user_func_array($callable, $params);
+			if($result === false) {
+				// stop further propagation
+				$result = false;
+				break;
+			}
+		}
+		return $result;
+	}
+};
+?>

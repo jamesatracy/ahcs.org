@@ -1,0 +1,9 @@
+@import "lib";
+
+/* HEADER
+-------------------------------------------------- */
+#main-page-header {
+	margin: 0;
+	height: 120px;
+	@include background-image($path: 'bkg-header-band.png', $repeat: repeat-x);
+}

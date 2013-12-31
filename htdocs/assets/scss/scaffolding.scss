@@ -1,0 +1,71 @@
+@import "lib";
+
+/* Scaffolding
+-------------------------------------------------- */
+body {
+@include background-image($color: $primary-color, $path: 'bkg-gradient.jpg', $repeat: repeat-x);
+}
+
+.container {
+width: 978px !important;
+padding: 0 !important;
+}
+
+.content {
+background-color: #fff;
+padding: 0 20px;
+}
+
+.leader {
+margin-top: 0;
+}
+
+.todo {
+color: red;
+font-weight: bold;
+}
+
+#right-rail {
+	h3 {
+		margin-top: 0;
+	}
+}
+
+/* UI OVERRIDES
+-------------------------------------------------- */
+a {
+color: $primary-color;
+	&:link,
+	&:visited,
+	&:focus {
+	color: $primary-color;
+	}
+	
+	&:hover {
+	color: $secondary-color;
+	}
+}
+
+hr {
+	border-top: 4px solid $primary-color;
+}
+
+.btn-secondary {
+	color: #fff !important;
+	background-color: $secondary-color;
+	border-color: $secondary-color-dark;
+	
+	&:hover,
+	&:active,
+	&:focus {
+		color: #fff !important;
+		background-color: $secondary-color-dark;
+		border-color: $secondary-color-darker;
+	}
+}
+
+.page-header {
+	color: $primary-color;
+	border-bottom: 1px solid #ddd;
+	font-size: 32px;
+}

@@ -1,0 +1,76 @@
+/* PRIMITIVES
+-------------------------------------------------- */
+/* Scaffolding
+-------------------------------------------------- */
+/* line 5, ../scss/scaffolding.scss */
+body {
+  background: #1d7a1d url("../images/bkg-gradient.jpg") top left repeat-x;
+}
+
+/* line 9, ../scss/scaffolding.scss */
+.container {
+  width: 978px !important;
+  padding: 0 !important;
+}
+
+/* line 14, ../scss/scaffolding.scss */
+.content {
+  background-color: #fff;
+  padding: 0 20px;
+}
+
+/* line 19, ../scss/scaffolding.scss */
+.leader {
+  margin-top: 0;
+}
+
+/* line 23, ../scss/scaffolding.scss */
+.todo {
+  color: red;
+  font-weight: bold;
+}
+
+/* line 29, ../scss/scaffolding.scss */
+#right-rail h3 {
+  margin-top: 0;
+}
+
+/* UI OVERRIDES
+-------------------------------------------------- */
+/* line 36, ../scss/scaffolding.scss */
+a {
+  color: #1d7a1d;
+}
+/* line 40, ../scss/scaffolding.scss */
+a:link, a:visited, a:focus {
+  color: #1d7a1d;
+}
+/* line 44, ../scss/scaffolding.scss */
+a:hover {
+  color: #ffcc00;
+}
+
+/* line 49, ../scss/scaffolding.scss */
+hr {
+  border-top: 4px solid #1d7a1d;
+}
+
+/* line 53, ../scss/scaffolding.scss */
+.btn-secondary {
+  color: #fff !important;
+  background-color: #ffcc00;
+  border-color: #d3a900;
+}
+/* line 60, ../scss/scaffolding.scss */
+.btn-secondary:hover, .btn-secondary:active, .btn-secondary:focus {
+  color: #fff !important;
+  background-color: #d3a900;
+  border-color: #bc9600;
+}
+
+/* line 67, ../scss/scaffolding.scss */
+.page-header {
+  color: #1d7a1d;
+  border-bottom: 1px solid #ddd;
+  font-size: 32px;
+}

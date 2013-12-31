@@ -1,0 +1,10 @@
+/* PRIMITIVES
+-------------------------------------------------- */
+/* HEADER
+-------------------------------------------------- */
+/* line 5, ../scss/header.scss */
+#main-page-header {
+  margin: 0;
+  height: 120px;
+  background: transparent url("../images/bkg-header-band.png") top left repeat-x;
+}

@@ -1,0 +1,44 @@
+@import "lib";
+
+/* Footer
+-------------------------------------------------- */
+#content-footer {
+	font-weight: bold;
+	text-align: center;
+	
+	.row {
+		margin: 20px 0;
+	}
+	
+	.first {
+		border-right: 1px solid #333;
+	}
+	
+	.second {
+		border-right: 1px solid #333;
+	}
+}
+
+#logo-footer {
+	margin: 5px 0;
+	text-align: center;
+	height: 80px;
+	@include background-image($color: #fff, $path: 'bkg-logo-footer-band.png', $repeat: repeat-x);
+	/*@include box-shadow(rgba(50, 50, 50, 0.75) 0 5px 5px);*/
+}
+
+#nav-footer {
+	text-align: center;
+	font-size: 12px;
+	
+	.nav-menu {
+		font-weight: bold;
+		margin-top: 5px;
+	}
+}
+
+#associations-footer {
+	.associations {
+		text-align: center;
+	}
+}

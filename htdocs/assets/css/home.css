@@ -1,0 +1,69 @@
+/* PRIMITIVES
+-------------------------------------------------- */
+/* Carousel
+-------------------------------------------------- */
+/* line 5, ../scss/home.scss */
+.carousel-inner {
+  height: 564px;
+}
+
+/* line 9, ../scss/home.scss */
+.carousel-caption {
+  top: auto;
+  left: 0 !important;
+  bottom: 0;
+  right: auto !important;
+  padding: 5px 20px !important;
+  height: 220px;
+  width: 100%;
+  text-align: left;
+  background: url("../images/opacity06.png");
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* line 22, ../scss/home.scss */
+.carousel-indicators {
+  left: auto;
+  right: 40px;
+  bottom: 155px !important;
+  width: auto;
+  margin: 0;
+}
+
+/* line 30, ../scss/home.scss */
+#info-boxes {
+  position: absolute;
+  top: 420px;
+  z-index: 10;
+  padding: 0 20px;
+}
+
+/* line 37, ../scss/home.scss */
+.hero-col {
+  background: #d8dfd8 url("../images/hero-col-bkg.jpg") left bottom repeat-x;
+  border: 1px solid #fff;
+  padding: 5px 10px;
+  text-align: center;
+}
+/* line 43, ../scss/home.scss */
+.hero-col h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+/* line 49, ../scss/home.scss */
+.hero-col img {
+  -webkit-box-shadow: rgba(100, 100, 100, 0.75) 0 2px 5px;
+  -moz-box-shadow: rgba(100, 100, 100, 0.75) 0 2px 5px;
+  box-shadow: rgba(100, 100, 100, 0.75) 0 2px 5px;
+}
+/* line 53, ../scss/home.scss */
+.hero-col .desc {
+  height: 46px;
+  margin: 5px 0;
+}
+
+/* line 59, ../scss/home.scss */
+#home-content {
+  margin-top: 180px;
+}

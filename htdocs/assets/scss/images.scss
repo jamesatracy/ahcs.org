@@ -1,0 +1,5 @@
+$image-base-url: '../images/';
+
+@mixin background-image($color: transparent, $path: '', $top: top, $left: left, $repeat: no-repeat) {
+background: $color url($image-base-url + $path) $top $left $repeat;
+}

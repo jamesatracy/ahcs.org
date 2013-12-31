@@ -1,0 +1,197 @@
+/* PRIMITIVES
+-------------------------------------------------- */
+/* PRIMITIVES
+-------------------------------------------------- */
+/* PRIMITIVES
+-------------------------------------------------- */
+/* Scaffolding
+-------------------------------------------------- */
+/* line 5, ../scss/scaffolding.scss */
+body {
+  background: #1d7a1d url("../images/bkg-gradient.jpg") top left repeat-x;
+}
+
+/* line 9, ../scss/scaffolding.scss */
+.container {
+  width: 978px !important;
+  padding: 0 !important;
+}
+
+/* line 14, ../scss/scaffolding.scss */
+.content {
+  background-color: #fff;
+  padding: 0 20px;
+}
+
+/* line 19, ../scss/scaffolding.scss */
+.leader {
+  margin-top: 0;
+}
+
+/* line 23, ../scss/scaffolding.scss */
+.todo {
+  color: red;
+  font-weight: bold;
+}
+
+/* line 29, ../scss/scaffolding.scss */
+#right-rail h3 {
+  margin-top: 0;
+}
+
+/* UI OVERRIDES
+-------------------------------------------------- */
+/* line 36, ../scss/scaffolding.scss */
+a {
+  color: #1d7a1d;
+}
+/* line 40, ../scss/scaffolding.scss */
+a:link, a:visited, a:focus {
+  color: #1d7a1d;
+}
+/* line 44, ../scss/scaffolding.scss */
+a:hover {
+  color: #ffcc00;
+}
+
+/* line 49, ../scss/scaffolding.scss */
+hr {
+  border-top: 4px solid #1d7a1d;
+}
+
+/* line 53, ../scss/scaffolding.scss */
+.btn-secondary {
+  color: #fff !important;
+  background-color: #ffcc00;
+  border-color: #d3a900;
+}
+/* line 60, ../scss/scaffolding.scss */
+.btn-secondary:hover, .btn-secondary:active, .btn-secondary:focus {
+  color: #fff !important;
+  background-color: #d3a900;
+  border-color: #bc9600;
+}
+
+/* line 67, ../scss/scaffolding.scss */
+.page-header {
+  color: #1d7a1d;
+  border-bottom: 1px solid #ddd;
+  font-size: 32px;
+}
+
+/* PRIMITIVES
+-------------------------------------------------- */
+/* HEADER
+-------------------------------------------------- */
+/* line 5, ../scss/header.scss */
+#main-page-header {
+  margin: 0;
+  height: 120px;
+  background: transparent url("../images/bkg-header-band.png") top left repeat-x;
+}
+
+/* PRIMITIVES
+-------------------------------------------------- */
+/* NAVIGATION BAR OVERRIDES
+-------------------------------------------------- */
+/* line 5, ../scss/navbar.scss */
+.navbar {
+  background-color: #1d7a1d;
+  min-height: 36px;
+  height: auto !important;
+  height: 36px;
+  -webkit-box-shadow: rgba(50, 50, 50, 0.75) 0 2px 5px;
+  -moz-box-shadow: rgba(50, 50, 50, 0.75) 0 2px 5px;
+  box-shadow: rgba(50, 50, 50, 0.75) 0 2px 5px;
+}
+
+/* line 11, ../scss/navbar.scss */
+.navbar-nav > li {
+  float: left;
+}
+
+/* line 15, ../scss/navbar.scss */
+.navbar-default {
+  margin-bottom: 0;
+  border: none;
+  z-index: 1;
+  -webkit-border-radius: 0 0;
+  -moz-border-radius: 0 / 0;
+  border-radius: 0 / 0;
+}
+/* line 22, ../scss/navbar.scss */
+.navbar-default .navbar-text,
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  text-align: center;
+  padding: 8px 20px;
+  font-weight: normal;
+  font-size: 14px;
+}
+/* line 31, ../scss/navbar.scss */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffcc00;
+}
+/* line 37, ../scss/navbar.scss */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #2CB72C;
+}
+/* line 42, ../scss/navbar.scss */
+.navbar-default .navbar-toggle {
+  border-color: #fff;
+}
+/* line 46, ../scss/navbar.scss */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+/* PRIMITIVES
+-------------------------------------------------- */
+/* Footer
+-------------------------------------------------- */
+/* line 5, ../scss/footer.scss */
+#content-footer {
+  font-weight: bold;
+  text-align: center;
+}
+/* line 9, ../scss/footer.scss */
+#content-footer .row {
+  margin: 20px 0;
+}
+/* line 13, ../scss/footer.scss */
+#content-footer .first {
+  border-right: 1px solid #333;
+}
+/* line 17, ../scss/footer.scss */
+#content-footer .second {
+  border-right: 1px solid #333;
+}
+
+/* line 22, ../scss/footer.scss */
+#logo-footer {
+  margin: 5px 0;
+  text-align: center;
+  height: 80px;
+  background: white url("../images/bkg-logo-footer-band.png") top left repeat-x;
+  /*@include box-shadow(rgba(50, 50, 50, 0.75) 0 5px 5px);*/
+}
+
+/* line 30, ../scss/footer.scss */
+#nav-footer {
+  text-align: center;
+  font-size: 12px;
+}
+/* line 34, ../scss/footer.scss */
+#nav-footer .nav-menu {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* line 41, ../scss/footer.scss */
+#associations-footer .associations {
+  text-align: center;
+}

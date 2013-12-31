@@ -1,0 +1,22 @@
+<?php 
+/**
+ * One column page layout.
+ */
+$this->extend("layout");
+?>
+
+<?php $this->define("content"); ?>
+<div class="container content">
+	<div class="content">
+		<h1 class="page-header"><?php echo $this->pageHeader; ?></h1>
+		<div class="row">
+			<div class="col-xs-8">
+				<?php $this->render("content"); ?>
+			</div>
+			<div id="right-rail" class="col-xs-4">
+				<?php $this->display("/partials/right-rail"); ?>
+			</div>
+		</div>
+	</div>
+</div>
+<?php $this->end(); ?>
