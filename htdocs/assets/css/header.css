@@ -2,21 +2,23 @@
 -------------------------------------------------- */
 /* HEADER
 -------------------------------------------------- */
-/* line 5, ../scss/header.scss */
+/* line 6, ../scss/header.scss */
 #main-page-header {
   margin: 0;
   height: 120px;
   background: transparent url("../images/bkg-header-band.png") top left repeat-x;
 }
-/* line 10, ../scss/header.scss */
+/* line 11, ../scss/header.scss */
 #main-page-header .header-inner {
-  padding: 0 20px;
+  padding: 0 20px 0 5px;
+  overflow: hidden;
+  *zoom: 1;
 }
-/* line 14, ../scss/header.scss */
+/* line 16, ../scss/header.scss */
 #main-page-header .icons {
   margin-top: 25px;
 }
-/* line 19, ../scss/header.scss */
+/* line 21, ../scss/header.scss */
 #main-page-header .hospital-portal,
 #main-page-header .portal-portal {
   margin: 5px 10px;

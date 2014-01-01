@@ -1,4 +1,5 @@
 @import "lib";
+@import "compass/utilities/general/clearfix";
 
 /* HEADER
 -------------------------------------------------- */
@@ -8,7 +9,8 @@
 	@include background-image($path: 'bkg-header-band.png', $repeat: repeat-x);
 	
 	.header-inner {
-		padding: 0 20px;
+		padding: 0 20px 0 5px;
+		@include clearfix();
 	}
 	
 	.icons {
