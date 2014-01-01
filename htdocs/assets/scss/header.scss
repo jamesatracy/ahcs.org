@@ -7,6 +7,10 @@
 	height: 120px;
 	@include background-image($path: 'bkg-header-band.png', $repeat: repeat-x);
 	
+	.header-inner {
+		padding: 0 20px;
+	}
+	
 	.icons {
 		margin-top: 25px;
 	}

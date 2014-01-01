@@ -90,10 +90,14 @@ hr {
   background: transparent url("../images/bkg-header-band.png") top left repeat-x;
 }
 /* line 10, ../scss/header.scss */
+#main-page-header .header-inner {
+  padding: 0 20px;
+}
+/* line 14, ../scss/header.scss */
 #main-page-header .icons {
   margin-top: 25px;
 }
-/* line 15, ../scss/header.scss */
+/* line 19, ../scss/header.scss */
 #main-page-header .hospital-portal,
 #main-page-header .portal-portal {
   margin: 5px 10px;
