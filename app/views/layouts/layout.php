@@ -6,6 +6,7 @@
     <title><?php echo ($this->title ? $this->title." | Appling HealthCare" : "Appling HealthCare | Baxley Georgia Medical Facility"); ?></title>
 	<meta name="description" content="Appling HealthCare System, located in Baxley, Georgia is a licensed, non-profit acute care medical facility.">
 	<meta name="generator" content="Backbone.php <?php echo Backbone::version(); ?>">
+	<meta name="google-translate-customization" content="d403ddc759a75c51-3d894c6e059b2dc7-g23ce57a165b6e1fe-27"></meta>
 	<link rel="shortcut icon" href="<?php echo $this->url("favicon.ico"); ?>" />
 	<?php echo Html::stylesheet($this->url("/assets/lib/bootstrap/3.0.2/css/bootstrap.min.css")); ?>
 	<?php echo Html::stylesheet($this->url("/assets/css/shared.css")); ?>

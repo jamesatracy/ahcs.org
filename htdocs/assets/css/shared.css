@@ -96,13 +96,18 @@ hr {
   *zoom: 1;
 }
 /* line 16, ../scss/header.scss */
-#main-page-header .icons {
-  margin-top: 25px;
+#main-page-header .header-right {
+  margin-top: 20px;
 }
-/* line 21, ../scss/header.scss */
+/* line 20, ../scss/header.scss */
+#main-page-header .icons {
+  margin-bottom: 0;
+  text-align: right;
+}
+/* line 26, ../scss/header.scss */
 #main-page-header .hospital-portal,
 #main-page-header .portal-portal {
-  margin: 5px 10px;
+  margin: 3px 10px;
 }
 
 /* PRIMITIVES
@@ -209,4 +214,21 @@ hr {
 /* line 41, ../scss/footer.scss */
 #associations-footer .associations {
   text-align: center;
+}
+
+/* line 2, ../scss/translate.scss */
+.translated-ltr .navbar-nav {
+  padding-left: 8px;
+}
+/* line 6, ../scss/translate.scss */
+.translated-ltr .navbar-nav > li > a {
+  padding: 8px 6px;
+}
+/* line 11, ../scss/translate.scss */
+.translated-ltr .hero-col h3 {
+  height: 32px;
+}
+/* line 15, ../scss/translate.scss */
+.translated-ltr .hero-col .desc {
+  height: 60px;
 }

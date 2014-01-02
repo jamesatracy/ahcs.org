@@ -1,0 +1,16 @@
+/* line 2, ../scss/translate.scss */
+.translated-ltr .navbar-nav {
+  padding-left: 8px;
+}
+/* line 6, ../scss/translate.scss */
+.translated-ltr .navbar-nav > li > a {
+  padding: 8px 6px;
+}
+/* line 11, ../scss/translate.scss */
+.translated-ltr .hero-col h3 {
+  height: 32px;
+}
+/* line 15, ../scss/translate.scss */
+.translated-ltr .hero-col .desc {
+  height: 60px;
+}
