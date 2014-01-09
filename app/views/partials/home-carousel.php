@@ -29,7 +29,7 @@
 					<div class="hero-col">
 						<h3>Patient &amp; Visitor Services</h3>
 						<img src="<?php echo $this->url("/assets/images/patient-services.jpg"); ?>" alt="Patient and Visitor Services" width="180" height="150"/>
-						<p class="desc">Discover our ammenities for patients and visitors.</p>
+						<p class="desc">Discover our amenities for patients and visitors.</p>
 						<p><a href="<?php echo $this->urlAlias("patient-visitor-services"); ?>" class="btn btn-secondary">Click for More</a></p>
 					</div>
 				</div>
@@ -43,10 +43,10 @@
 				</div>
 				<div class="col-xs-3">
 					<div class="hero-col">
-						<h3>Pavillion &amp; Senior Care</h3>
+						<h3>Pavilion &amp; Senior Care</h3>
 						<img src="<?php echo $this->url("/assets/images/senior-care.jpg"); ?>" alt="Pavillion and Senior Care" width="180" height="150"/>
 						<p class="desc">Explore the pavilion and senior care center.</p>
-						<p><a href="<?php echo $this->urlAlias("pavillion-senior-care"); ?>" class="btn btn-secondary">Click for More</a></p>
+						<p><a href="<?php echo $this->urlAlias("pavilion-senior-care"); ?>" class="btn btn-secondary">Click for More</a></p>
 					</div>
 				</div>
 				<div class="col-xs-3">

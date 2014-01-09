@@ -11,7 +11,7 @@ $this->pageHeader = "Site Map";
 	<li><a href="<?php echo $this->urlAlias('home'); ?>">Home</a></li>
 	<li><a href="<?php echo $this->urlAlias('patient-visitor-services'); ?>">Patient &amp; Visitor Services</a></li>
 	<li><a href="<?php echo $this->urlAlias('physicians-services-directory'); ?>">Physician &amp; Services Directory</a></li>
-	<li><a href="<?php echo $this->urlAlias('pavillion-senior-care'); ?>">Senior Care &amp; Pavillion</a></li>
+	<li><a href="<?php echo $this->urlAlias('pavilion-senior-care'); ?>">Senior Care &amp; Pavilion</a></li>
 	<li><a href="<?php echo $this->urlAlias('about'); ?>">About Appling HealthCare</a></li>
 	<li><a href="<?php echo $this->urlAlias('jobs'); ?>">Job Opportunities</a></li>
 </ul>

@@ -11,7 +11,7 @@ Router::get("/physician-services-directory/", "View@physician-services-directory
 Router::get("/about/", "View@about")->alias("about");
 Router::get("/job-opportunities/", "View@jobs")->alias("jobs");
 Router::get("/contact/", "View@contact")->alias("contact");
-Router::get("/pavillion-senior-care/", "View@pavillion-senior-care")->alias("pavillion-senior-care");
+Router::get("/pavilion-senior-care/", "View@pavilion-senior-care")->alias("pavilion-senior-care");
 Router::get("/coming-soon/", "View@coming-soon")->alias("coming-soon");
 Router::get("/site-map/", "View@site-map")->alias("site-map");
 

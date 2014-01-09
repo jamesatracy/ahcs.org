@@ -2,8 +2,8 @@
 $this->extend("/layouts/layout");
 $this->extend("/layouts/page-two-col");
 
-$this->title = "Pavillion &amp; Senior Care";
-$this->pageHeader = "Pavillion &amp; Senior Care";
+$this->title = "Pavilion &amp; Senior Care";
+$this->pageHeader = "Pavilion &amp; Senior Care";
 ?>
 
 <?php $this->define("content"); ?>
@@ -25,7 +25,7 @@ $this->pageHeader = "Pavillion &amp; Senior Care";
 	<li>Chapel to meet all spiritual needs</li>
 </ul>
 
-<p><img src="<?php echo $this->url('/assets/images/the-pavillion-outside.jpg'); ?>" width="625" height="300" alt="The Pavillion" /></p>
+<p><img src="<?php echo $this->url('/assets/images/the-pavilion-outside.jpg'); ?>" width="625" height="300" alt="The Pavilion" /></p>
 
 <h3>The Senior Care Unit</h3>
 <h4>Recovery for Seniors</h4>
