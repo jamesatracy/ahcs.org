@@ -21,11 +21,11 @@
 		<a href="<?php echo $this->urlAlias("home"); ?>">Home</a> | 
 		<a href="<?php echo $this->urlAlias("patient-visitor-services"); ?>">Patient &amp; Visitors</a> | 
 		<a href="<?php echo $this->urlAlias("physician-services-directory"); ?>">Pysicians &amp; Services</a> | 
-		<a href="#">Billing &amp; Insurance</a> | 
+		<a href="<?php echo $this->urlAlias('coming-soon'); ?>">Billing &amp; Insurance</a> | 
 		<a href="<?php echo $this->urlAlias("about"); ?>">About Appling</a> | 
 		<a href="<?php echo $this->urlAlias("jobs"); ?>">Job Opportunities</a> | 
 		<a href="<?php echo $this->urlAlias("contact"); ?>">Contact Appling</a> | 
-		<a href="#">Site Map</a>
+		<a href="<?php echo $this->urlAlias('site-map'); ?>">Site Map</a>
 	</p>
 	<p class="nav-copyright">Copyright &copy; <?php echo date("Y"); ?> Appling HealthCare System | Powered by <a href="http://www.azaleahealth.com" target="_blank">Azalea Health</a></p>
 </section>
