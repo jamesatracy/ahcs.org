@@ -8,12 +8,7 @@ $this->pageHeader = "Patient &amp; Visitor Services";
 
 <?php $this->define("content"); ?>
 <h3 class="leader">Thank you for choosing Appling HealthCare System</h3>
-<p>Information related to a patient's stay (i.e. visiting hours, patient rights &amp; responsibilities) are located in our Patient Guide. Please click on the Patient Guide image below to view a digital version of the guide).
-<p>
-	<a href="http://www.healthyadvice.com/hospital/GA_Appling" target="_blank">
-		<img class="center-block" src="<?php echo $this->url("/assets/images/patient-guide.jpg"); ?>" alt="Patient Guide"/>
-	</a>
-</p>
+<p>Information related to a patient's stay (i.e. visiting hours, patient rights &amp; responsibilities) are located in our Patient Guide, coming soon.</p>
 
 <h3>Patient Forms</h3>
 <p><a href="<?php echo $this->url('/assets/docs/Appling_Rehab_Patient_Information_Sheet.pdf'); ?>">Appling Rehab Patient Information Sheet</a></p>

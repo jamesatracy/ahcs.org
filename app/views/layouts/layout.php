@@ -27,5 +27,10 @@
     <script src="<?php echo $this->url("/assets/lib/jquery/1.10.2/jquery.min.js"); ?>"></script>
     <script src="<?php echo $this->url("/assets/lib/bootstrap/3.0.2/js/bootstrap.min.js"); ?>"></script>
 	<?php $this->render("scripts"); ?>
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+		  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+		}
+	</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   </body>
 </html>
