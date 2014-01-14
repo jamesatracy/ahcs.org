@@ -36,21 +36,29 @@ $this->end();
 		<td>Butler, Jeffery, MD</td>
 		<td>General Surgery</td>
 		<td>Appling Surgical<br/>
-			163 East Tollison Street<br/>
+			821 South Main Street<br/>
 			Baxley, Georgia 31513
 		</td>
 		<td>912-367-8499</td>
 		<td>912-367-8498</td>
 	</tr>
 	<tr>
+		<td><img src="<?php echo $this->url('/assets/images/staff/Dr_Cantey.jpg'); ?>" width="71" height="100" /></td>
+		<td>Cantey, William, MD</td>
+		<td>Specialty General Surgery</td>
+		<td>Appling Surgical<br/>
+		821 South Main Street<br/>Baxley, GA  31513</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
 		<td></td>
 		<td>Carter, Harrison, MD</td>
-		<td>Internal Medicine</td>
-		<td>1126 West 12th Street<br/>
-		Alma, Georgia 31510
-		</td>
-		<td>912-632-7300</td>
-		<td>912-632-1326</td>
+		<td>South Georgia Diagnostic and Prevention Center</td>
+		<td>1093 West Parker Street<br/>
+		Baxley GA  31513</td>
+		<td>912-367-9559</td>
+		<td></td>
 	</tr>
 	<tr>
 		<td><img src="<?php echo $this->url('/assets/images/staff/Dr_Cezar.jpg'); ?>" width="71" height="100" /></td>
@@ -75,16 +83,14 @@ $this->end();
 		<td>912-367-0436</td>
 	</tr>
 	<tr>
+		<td><img src="<?php echo $this->url('/assets/images/staff/Dr_Dent.jpg'); ?>" width="71" height="100" /></td>
+		<td>Dent, Gary, MD</td>
+		<td>South Georgia Radiology Associates</td>
+		<td>24 Glendale Ave, Ste, D<br/>
+		Baxley GA  31513<br/>
+		<a href="http://www.southgeorgiaradiology.com" target="_blank">www.southgeorgiaradiology.com</a></td>
 		<td></td>
-		<td>Farmer, James "Ted"</td>
 		<td></td>
-		<td>South Georgia Medial Associates<br/>
-			105 East Tollison Street<br/>
-			Suite B<br/>
-			Baxley, Georgia 31513<br/>
-		</td>
-		<td>912-367-4122</td>
-		<td>912-367-4136</td>
 	</tr>
 	<tr>
 		<td><img src="<?php echo $this->url('/assets/images/staff/Dr_Faulk.jpg'); ?>" width="71" height="100" /></td>
@@ -150,6 +156,24 @@ $this->end();
 		<td>912-367-5525</td>
 		<td>912-367-5516</td>
 	</tr>
+	<tr>
+		<td><img src="<?php echo $this->url('/assets/images/staff/Dr_McIntire.jpg'); ?>" width="71" height="100" /></td>
+		<td>McIntire, Timothy, MD</td>
+		<td>Southeastern Pathology Associates</td>
+		<td>203 Indigo Dr<br/>
+		Brunswick, GA  31525</td>
+		<td>912-261-2669</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>Paidi, Ramachandra, MD</td>
+		<td>Vidalia Psychiatric Clinic</td>
+		<td>106 Queens Street, Suite A<br/>
+		Vidalia, Georgia 30474</td>
+		<td>912-537-6060</td>
+		<td></td>
+	</tr>
 </table>
 
 <hr/>
@@ -170,30 +194,38 @@ Melanie Young, NP<br/>
 <table id="services" class="table table-bordered">
 	<tr>
 		<td>Appling Oncology &amp; Hematology</td>
-		<td>Nursing</td>
+		<td>Labs for Less</td>
 	</tr>
 	<tr>
 		<td>Ambulance Serviecs</td>
-		<td>Pavilion</td>
+		<td>Nuclear Medicine</td>
 	</tr>
 	<tr>
 		<td>Community Education/Resource</td>
+		<td>Nursing</td>
+	</tr>
+	<tr>
+		<td>Dietary</td>
+		<td>Pavilion</td>
+	</tr>
+	<tr>
+		<td>Environmental Services</td>
 		<td>Pharmacy</td>
 	</tr>
 	<tr>
-		<td>Infusion Clinic</td>
+		<td>General Surgery</td>
 		<td>Radiology</td>
 	</tr>
 	<tr>
-		<td>Inpatient Dialysis</td>
-		<td>Rahabilitation</td>
+		<td>Infusion Clinic</td>
+		<td>Rehabilitation</td>
 	</tr>
 	<tr>
-		<td>Laboratory</td>
+		<td>Inpatient Dialysis</td>
 		<td>Respiratory</td>
 	</tr>
 	<tr>
-		<td>Labs for Less</td>
+		<td>Laboratory</td>
 		<td>Senior Care Unit</td>
 	</tr>
 </table>

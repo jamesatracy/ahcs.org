@@ -5,6 +5,7 @@
 			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 			<li data-target="#myCarousel" data-slide-to="1"></li>
 			<li data-target="#myCarousel" data-slide-to="2"></li>
+			<li data-target="#myCarousel" data-slide-to="3"></li>
 		</ol>
 		<div class="carousel-inner">
 			<div class="item active">
@@ -15,6 +16,9 @@
 			</div>
 			<div class="item">
 				<img src="<?php echo $this->url("/assets/images/hero-photo-3-fixed.jpg"); ?>" alt="Appling Hero Photo 3"/>
+			</div>
+			<div class="item">
+				<img src="<?php echo $this->url("/assets/images/hero-photo-4-fixed.jpg"); ?>" alt="Appling Hero Photo 4"/>
 			</div>
 		</div>
 		<a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
