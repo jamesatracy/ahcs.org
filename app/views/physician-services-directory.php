@@ -16,7 +16,7 @@ $this->end();
 	<tr>
 		<th></th>
 		<th>Name</th>
-		<th>Specialty</th>
+		<th>Location / Specialty</th>
 		<th>Address</th>
 		<th>Phone</th>
 		<th>Fax</th>
@@ -179,14 +179,90 @@ $this->end();
 <hr/>
 
 <h3>Allied Health Practitioners</h3>
-<p>Martha Beecher, NP<br/>
-Janey Britt, CFNP<br/>
-Knicole Lee, NP<br/>
-Beverly Johnson, NP<br/>
-Beth Smith, CRNA<br/>
-Vicki Woods, CRNA<br/>
-Melanie Young, NP<br/>
-</p>
+<table class="table">
+	<tr>
+		<th></th>
+		<th>Name</th>
+		<th>Location</th>
+		<th>Address</th>
+		<th>Phone</th>
+		<th>Fax</th>
+	</tr>
+	<tr>
+		<td></td>
+		<td>Anderson, Caroline, FNP</td>
+		<td>South Georgia Diagnostic and Prevention Center</td>
+		<td>1093 West Parker Street<br/>
+		Baxley, GA  31513</td>
+		<td>912-367-9559</td>
+		<td>912-367-9554</td>
+	</tr>
+	<tr>
+		<td><img src="<?php echo $this->url('/assets/images/staff/Janey_Britt.jpg'); ?>" width="71" height="100" /></td>
+		<td>Britt, Janey, CFNP</td>
+		<td>South Georgia Medical Associates</td>
+		<td>105 E, Tollison Street Suite B<br/>
+		Baxley GA  31513</td>
+		<td>912-367-4122</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><img src="<?php echo $this->url('/assets/images/staff/Beverly_Johnson.jpg'); ?>" width="71" height="100" /></td>
+		<td>Johnson, Beverly, FNP</td>
+		<td>Appling Family Practice</td>
+		<td>821 South Main Street<br/>
+		Baxley, GA  31513</td>
+		<td>912-367-0653</td>
+		<td>912-367-0656</td>
+	</tr>
+	<tr>
+		<td><img src="<?php echo $this->url('/assets/images/staff/Knicole_Lee.jpg'); ?>" width="71" height="100" /></td>
+		<td>Lee, Knicole, DNP</td>
+		<td>Appling Medical Group</td>
+		<td>755 South Main Street<br/>
+		Baxley GA  31513</td>
+		<td>912-366-6003</td>
+		<td>912-366-6038</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><img src="<?php echo $this->url('/assets/images/staff/Beth_Smith.jpg'); ?>" width="71" height="100" /></td>
+		<td>Smith, Beth, CRNA</td>
+		<td>Appling HealthCare System</td>
+		<td>163 East Tollison Street<br/>
+		Baxley  GA 31513</td>
+		<td>912-367-9841</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>Williams, Greg, FNP</td>
+		<td>Appling Family Total HealthCare</td>
+		<td>950 South Main Street<br/>
+		Baxley, GA  31513<br/>
+		<a href="http://www.afthcpc.com/" target="_blank">http://www.afthcpc.com/</a></td>
+		<td>912-367-3585</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><img src="<?php echo $this->url('/assets/images/staff/Vicki_Woods.jpg'); ?>" width="71" height="100" /></td>
+		<td>Woods, Vicki, CRNA</td>
+		<td>Appling HealthCare System</td>
+		<td>163 East Tollison Street<br/>
+		Baxley, GA  31513</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><img src="<?php echo $this->url('/assets/images/staff/Melanie_Young.jpg'); ?>" width="71" height="100" /></td>
+		<td>Young, Melanie, FNP</td>
+		<td>Appling Pediatrics</td>
+		<td>105 East Tollison Street, Suite D<br/>
+		Baxley, GA  31513</td>
+		<td>912-366-9688</td>
+		<td>912-366-9888</td>
+	</tr>
+</table>
 
 <hr/>
 
