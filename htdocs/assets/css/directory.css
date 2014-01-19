@@ -1,4 +1,1 @@
-/* line 2, ../scss/directory.scss */
-#services td {
-  width: 50%;
-}
+thead{border-top:1px solid #dddddd}.header-fixed{position:fixed;top:0px;display:none;background-color:white}#services td{width:50%}
