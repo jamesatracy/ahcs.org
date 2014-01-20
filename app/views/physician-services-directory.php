@@ -51,7 +51,7 @@ $this->prepend("scripts"); ?>
 		<tr>
 			<td><img src="<?php echo $this->url('/assets/images/staff/Dr_Cantey.jpg'); ?>" width="71" height="100" /></td>
 			<td>Cantey, William, MD</td>
-			<td>Specialty General Surgery</td>
+			<td>General Surgery</td>
 			<td>Appling Surgical<br/>
 			821 South Main Street<br/>Baxley, GA  31513</td>
 			<td></td>
