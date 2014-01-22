@@ -148,7 +148,7 @@ $this->prepend("scripts"); ?>
 			755 South Main Street<br/>
 			Baxley, Georgia 31513
 			</td>
-			<td>912-367-0044</td>
+			<td>912-366-6005</td>
 			<td>912-367-9005</td>
 		</tr>
 		<tr>
