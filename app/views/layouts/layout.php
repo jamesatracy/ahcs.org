@@ -14,7 +14,8 @@
       <script src="<?php echo $this->url("/assets/lib/html5shiv/html5shiv.js"); ?>"></script>
       <script src="<?php echo $this->url("/assets/lib/respond/1.3.0/respond.min.js"); ?>"></script>
   </head>
-  <body>
+  <body class="no-js">
+	<script>document.body.className = 'js'</script>
 	<?php $this->display("/partials/header"); ?>
 	<?php $this->display("/partials/navigation"); ?>
 	<div id="content">
