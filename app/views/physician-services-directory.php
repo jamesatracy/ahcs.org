@@ -10,7 +10,7 @@ echo Html::stylesheet($this->url("/assets/css/directory.css"));
 $this->end();
 
 $this->prepend("scripts"); ?>
-<script src="<?php echo $this->url("/assets/js/directory.js"); ?>"></script>
+<script src="<?php echo $this->url("/assets/js/fixed-table-headers.js"); ?>"></script>
 <?php $this->end(); ?>
 
 <?php $this->define("content"); ?>
