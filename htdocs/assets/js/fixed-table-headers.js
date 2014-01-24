@@ -14,24 +14,30 @@
 	}
 	
 	function initHeader(el) {
-		var $this = $(el),
-			$table = $(document.getElementById(el.getAttribute('data-table'))),
-			tableWidth = $table.width(),
-			tableHeight = $table.height(),
-			tableOffset = $table.offset().top,
-			$header = $table.find('thead').clone(),
-			$fixedHeader = $this.append($header),
-			$ths = $this.find('th'),
-			j;
+		var table,
+			tableHeight,
+			tableOffset,
+			rect,
+			els,
+			copyEls;
 		
-		$fixedHeader.width(tableWidth);
+		table = document.getElementById(el.getAttribute('data-table'));
+		rect = table.getBoundingClientRect();
+		tableHeight = rect.height;
+		tableOffset = rect.top;
 		
-		j = 0;
-		$table.find('th').each(function () {
-			$ths[j].width = $(this).width();
-			$ths.css('border-bottom', '0');
-			j++;
-		});
+		el.style.width = rect.width + 'px';
+		el.appendChild(
+			table.querySelector('thead').cloneNode(true)
+		);
+		
+		els = el.getElementsByTagName('th');
+		copyEls = table.getElementsByTagName('th');
+		
+		for (var j = 0, len = copyEls.length; j < len; j++) {
+			els[j].style.width = copyEls[j].getBoundingClientRect().width + 'px';
+			els[j].style.borderBottom = '0';
+		}
 		
 		window.addEventListener('scroll', function () {
 			var offset = window.pageYOffset || document.body.scrollTop,
