@@ -11,8 +11,8 @@
 	<?php echo Html::stylesheet($this->url("/assets/lib/bootstrap/3.0.2/css/bootstrap.min.css")); ?>
 	<?php echo Html::stylesheet($this->url("/assets/css/shared.css")); ?>
 	<?php $this->render("css"); ?>
-      <script src="<?php echo $this->url("/assets/lib/html5shiv/html5shiv.js"); ?>"></script>
-      <script src="<?php echo $this->url("/assets/lib/respond/1.3.0/respond.min.js"); ?>"></script>
+    <!--[if IE ]><script src="<?php echo $this->url("/assets/lib/html5shiv/html5shiv.js"); ?>"></script><![endif]-->
+    <!--[if IE ]><script src="<?php echo $this->url("/assets/lib/respond/1.3.0/respond.min.js"); ?>"></script><![endif]-->
   </head>
   <body class="no-js">
 	<script>document.body.className = 'js'</script>
@@ -25,7 +25,6 @@
 	<footer>
 		<?php $this->display("/partials/footer"); ?>
 	</footer>
-
 	<?php $this->render("scripts"); ?>
 	<script type="text/javascript">
 	function googleTranslateElementInit() {

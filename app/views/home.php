@@ -1,4 +1,5 @@
 <?php 
+global $ENV;
 $this->extend("/layouts/layout");
 
 $this->prepend("css");
@@ -6,8 +7,13 @@ echo Html::stylesheet($this->url("/assets/css/home.css"));
 $this->end();
 ?>
 
-<?php $this->prepend("scripts"); ?>
-<script src="<?php echo $this->url("/assets/js/carousel.js"); ?>"></script>
+<?php 
+$ext = 'js';
+if($ENV === 'production') {
+	$ext = 'min.js';
+}
+$this->prepend("scripts"); ?>
+<script src="<?php echo $this->url("/assets/js/carousel.".$ext); ?>"></script>
 <?php $this->end(); ?>
 
 <?php $this->define("banner"); ?>

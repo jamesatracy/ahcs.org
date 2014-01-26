@@ -1,80 +1,58 @@
 (function (win, doc) {
-	var carousel = doc.getElementById('myCarousel'),
+	var carousel = doc.getElementById('carousel'),
 		interval = carousel.getAttribute('data-interval'),
-		features = {},
+		ACTIVE = 'active',
+		NEXT = 'next',
+		PREV = 'prev',
+		ITEM = 'item',
+		DATA_INDEX = 'data-index',
+		transitions = false,
 		index = 0,
 		transitioning = false,
 		items,
 		count,
-		active,
-		controls,
+		activeSlide,
+		left,
+		right,
 		indicators,
 		activeIndicator,
 		timer;
 	
-	// If available use the native method
-	var getElementsByClassName = (function() {
-		if (doc.getElementsByClassName) {
-			return function(node, searchClass) {
-				return node.getElementsByClassName(searchClass);
-			}
-		} else {
-			return function(node, searchClass, tag) {
-				var classElements = [], els, elsLen, pattern;
-				if (tag == null) {
-					tag = '*';
-				}
-				els = node.getElementsByTagName(tag);
-				elsLen = els.length;
-				pattern = new RegExp("(^|\\s)"+searchClass+"(\\s|$)");
-				for (var i = 0, j = 0; i < elsLen; i++) {
-					if ( pattern.test(els[i].className) ) {
-						classElements[j] = els[i];
-						j++;
-					}
-				}
-				return classElements;
-			}
-		}
-	}());
-	
 	// check for css3 transitions
 	if ('transition' in doc.createElement('fake').style) {
-		features.transitions = true;
+		transitions = true;
 	}
 	
-	// check for addEventListener
-	features.addEventListener = !!win.addEventListener;
-	
 	// carousel init
-	items = getElementsByClassName(carousel, 'item', 'div');
+	items = doc.getElementById('carousel-inner').children;
 	count = items.length;
-	active = items[index];
+	activeSlide = items[index];
 	
-	// set up transition events
-	if (features.transitions) {
-		for (var i = 0, len = items.length; i < len; i++) {
+	// set up data-index and transition events
+	for (var i = 0, len = items.length; i < len; i++) {
+		if (transitions) {
 			items[i].addEventListener('transitionend', onTransitionEnd);
 		}
+		items[i].setAttribute(DATA_INDEX, i);
 	}
 	
 	// carousel controls
-	controls = getElementsByClassName(carousel, 'carousel-control', 'a');
-	for (var i = 0, len = controls.length; i < len; i++) {
-		if (features.addEventListener) {
-			controls[i].addEventListener('click', onControlClick);
-		} else {
-			controls[i].attachEvent('onclick', onControlClick);
-		}
+	left = doc.getElementById('carousel-control-left');
+	right = doc.getElementById('carousel-control-right');
+	if (doc.addEventListener) {
+		left.addEventListener('click', onControlClick);
+		right.addEventListener('click', onControlClick);
+	} else {
+		left.attachEvent('onclick', onControlClick);
+		right.attachEvent('onclick', onControlClick);
 	}
 	
 	// carousel indicators
-	indicators = getElementsByClassName(carousel, 'carousel-indicators', 'ol')[0];
-	indicators = indicators.children;
+	indicators = doc.getElementById('carousel-indicators').children;
 	activeIndicator = indicators[index];
 	
 	for (var i = 0, len = indicators.length; i < len; i++) {
-		if (features.addEventListener) {
+		if (doc.addEventListener) {
 			indicators[i].addEventListener('click', onIndicatorClick);
 		} else {
 			indicators[i].attachEvent('onclick', onIndicatorClick);
@@ -83,43 +61,45 @@
 
 	// start it up
 	timer = setTimeout(function() {
-		slide('next', active.nextElementSibling || items[0]);
+		slide(NEXT, items[index + 1] || items[0]);
 	}, interval);
 	
 	// cycle the slide
 	function slide(type, next) {
-		var direction = type == 'next' ? 'left' : 'right';
-		if (transitioning || active === next) {
+		var direction = type == NEXT ? 'left' : 'right',
+			nextIndex = parseInt(next.getAttribute(DATA_INDEX));
+			
+		if (transitioning || activeSlide === next) {
 			return;
 		}
-		if (features.transitions) {
+		if (transitions) {
 			// use css3 transition animations
 			transitioning = true;
 			next.className += ' ' + type;
 			next.offsetWidth // force reflow
-			active.className += ' ' + direction;
+			activeSlide.className += ' ' + direction;
 			next.className += ' ' + direction;
 			activeIndicator.className = '';
-			index = getIndex(next);
 		} else {
 			// just show / hide
-			active.className = 'item';
-			next.className = 'item active';
-			active = next;
+			activeSlide.className = ITEM;
+			next.className = ITEM + ' ' + ACTIVE;
+			activeSlide = next;
 			activeIndicator.className = '';
-			index = getIndex(next);
-			activeIndicator = indicators[index];
-			activeIndicator.className = 'active';
+			activeIndicator = indicators[nextIndex];
+			activeIndicator.className = ACTIVE;
 		}
 		
+		index = nextIndex;
+		
 		timer = setTimeout(function() {
-			slide('next', getNextSlide(type, next));
+			slide(NEXT, getNextSlide(type));
 		}, interval);
 	}
 	
-	// get the next slide based on the type, next or prev, and the current slide
-	function getNextSlide(type, current) {
-		var nextIndex = type == 'next' ? index + 1 : index - 1;
+	// get the next slide based on the type, next or prev
+	function getNextSlide(type) {
+		var nextIndex = type == NEXT ? index + 1 : index - 1;
 		if (nextIndex < 0) {
 			nextIndex = count - 1;
 		} else if (nextIndex >= count) {
@@ -128,28 +108,19 @@
 		return items[nextIndex];
 	}
 	
-	// get the index for the given slide
-	function getIndex(item) {
-		for (var i = 0; i < count; i++) {
-			if (items[i] === item) {
-				return i;
-			}
-		}
-	}
-	
 	// called when prev or next arrow is clicked
 	function onControlClick(e) {
 		e = e || window.event;
 		var target = e.target || e.srcElement,
 			type;
 			
-		if (target.tagName.toLowerCase() === 'span') {
+		if (target.tagName === 'SPAN') {
 			target = target.parentNode;
 		}
 		type = target.getAttribute('data-slide');
 		
 		clearTimeout(timer);
-		slide(type, getNextSlide(type, active));
+		slide(type, getNextSlide(type));
 		if (e.preventDefault) {
 			e.preventDefault();
 		}
@@ -161,7 +132,7 @@
 		e = e || window.event;
 		var target = e.target || e.srcElement,
 			slideTo = target.getAttribute('data-slide-to'),
-			type = slideTo > index ? 'next' : 'prev';
+			type = slideTo > index ? NEXT : PREV;
 		
 		clearTimeout(timer);
 		slide(type, items[slideTo]);
@@ -171,13 +142,13 @@
 	function onTransitionEnd(e) {
 		var el = e.target;
 		
-		if (hasClass(el, 'active')) {
-			el.className = 'item';
-		} else if (hasClass(el, 'next') || hasClass(el, 'prev')) {
-			el.className = 'item active';
-			active = el;
+		if (hasClass(el, ACTIVE)) {
+			el.className = ITEM;
+		} else if (hasClass(el, NEXT) || hasClass(el, PREV)) {
+			el.className = ITEM + ' ' + ACTIVE;
+			activeSlide = el;
 			activeIndicator = indicators[index];
-			activeIndicator.className = 'active';
+			activeIndicator.className = ACTIVE;
 			transitioning = false;
 		}
 	}

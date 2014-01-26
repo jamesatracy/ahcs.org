@@ -1,13 +1,13 @@
 <div class="container content">
-	<section id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="8000">
+	<section id="carousel" class="carousel slide" data-ride="carousel" data-interval="8000">
 		<!-- Indicators -->
-		<ol class="carousel-indicators">
-			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-			<li data-target="#myCarousel" data-slide-to="1"></li>
-			<li data-target="#myCarousel" data-slide-to="2"></li>
-			<li data-target="#myCarousel" data-slide-to="3"></li>
+		<ol id="carousel-indicators" class="carousel-indicators">
+			<li data-target="#carousel" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel" data-slide-to="1"></li>
+			<li data-target="#carousel" data-slide-to="2"></li>
+			<li data-target="#carousel" data-slide-to="3"></li>
 		</ol>
-		<div class="carousel-inner">
+		<div id="carousel-inner" class="carousel-inner">
 			<div class="item active">
 				<img src="<?php echo $this->url("/assets/images/hero-photo-1-fixed.jpg"); ?>" alt="Appling Hero Photo 1"/>
 			</div>
@@ -21,8 +21,8 @@
 				<img src="<?php echo $this->url("/assets/images/hero-photo-4-fixed.jpg"); ?>" alt="Appling Hero Photo 4"/>
 			</div>
 		</div>
-		<a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-		<a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+		<a id="carousel-control-left" class="left carousel-control" href="#carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+		<a id="carousel-control-right" class="right carousel-control" href="#carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 		<div class="carousel-caption">
 			<h1>Quality Care Close to Home</h1>
 		</div>

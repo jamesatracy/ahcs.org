@@ -4,6 +4,12 @@
  * That includes loading Routers and other resources (database connections, etc.).
  */
 
+// Environment
+$ENV = 'development';
+if($_SERVER['SERVER_NAME'] === 'www.ahcs.org') {
+	$ENV = 'production';
+}
+ 
 // Define routes
 Router::get("/", "/controllers/AppController@index")->alias("home");
 Router::get("/patient-visitor-services/", "View@patient-visitor-services")->alias("patient-visitor-services");
