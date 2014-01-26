@@ -25,8 +25,7 @@
 	<footer>
 		<?php $this->display("/partials/footer"); ?>
 	</footer>
-    <script src="<?php echo $this->url("/assets/lib/jquery/1.10.2/jquery.min.js"); ?>"></script>
-    <script src="<?php echo $this->url("/assets/lib/bootstrap/3.0.2/js/bootstrap.min.js"); ?>"></script>
+
 	<?php $this->render("scripts"); ?>
 	<script type="text/javascript">
 	function googleTranslateElementInit() {

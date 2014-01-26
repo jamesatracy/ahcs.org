@@ -6,6 +6,10 @@ echo Html::stylesheet($this->url("/assets/css/home.css"));
 $this->end();
 ?>
 
+<?php $this->prepend("scripts"); ?>
+<script src="<?php echo $this->url("/assets/js/carousel.js"); ?>"></script>
+<?php $this->end(); ?>
+
 <?php $this->define("banner"); ?>
 <?php $this->display("/partials/home-carousel"); ?>
 <?php $this->end(); ?>
