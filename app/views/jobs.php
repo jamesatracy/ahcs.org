@@ -14,38 +14,32 @@ $this->pageHeader = "Job Opportunities";
 <p><img src="<?php echo $this->url('/assets/images/job-opportunities.jpg'); ?>" width="625" height="375" alt="Job Opportunities"/></p>
 
 <h3>Open Positions</h3>
-<p><strong>Med Surg - (PCT) - Part time (7p -7a)</strong></p>
+<p><strong>Utilization Review - (Case Manager's ) (1)-Fulltime (1)-PRN</strong></p>
 <p>QUALIFICATIONS:</p>
 <ol>
-    <li>Must have certification as nursing assistant</li>
-    <li>Current CPR certification</li>
-    <li>Computer charting (a plus)</li>
+ <li>3-5 years experience in Utilization Review or Case Management</li>
+ <li>Registered Nurse</li>
+ <li>Must be able to work in fast pace high volume environment</li>
+ <li>Strong clinical background</li>
+ <li>Swing bed knowledge preferred</li>
+ <li>Knowledge of coding/healthcare payment systems</li>
 </ol>
 
-<p><strong>ICU - (RN) - Full time  (7p-7a)</strong></p>
+<p><strong>Med Surg - (PCT's) - (1)- Fulltime (7a -7p) (1) -Part-time (7p -7a)</strong></p>
 <p>QUALIFICATIONS:</p>
 <ol>
-	<li>Current Georgia RN license</li>
-	<li>ACLS &amp;PALS certified</li>
-	<li>Must have current CPR certification</li>
-	<li>2-3 years experience preferred</li>
+ <li>Must have certification as nursing assistant</li>
+ <li>Current CPR certification</li>
+ <li>Computer charting (a plus)</li>
 </ol>
 
-<p><strong>IT Systems and Network Administrator - Full time</strong></p>
+<p><strong>Med Surg - (RN's or LPN's) (1) Fulltime (7a-7p) (1) Fulltime (7p-7a)</strong></p>
 <p>QUALIFICATIONS:</p>
 <ol>
-   <li>3-5 years of related IT experience plus, BS degree in computer science, information
-        technology or equivalent years experience can be substituted on a one to one basis</li>
-   <li>Must exercise discretion and judgement, strong problem solving, troubleshooting and
-        De-bugging skills</li>
-   <li>Excellent customer service, communication and presentation skills</li>
-   <li>Network (Cisco) and Windows system administration experience, both server and desktop</li>
-   <li>Manage and troubleshoot networks as well as intranet and internet connectivity throughout
-        the organization</li>
-   <li>Ability to configure, install, administer and maintain MS server, DHCP, DNS,
-        MS Exchange, VMware servers and telephony equipment</li>
-   <li>Troubleshoot issues with Outlook/Exchange, wireless, VPN, network and printer connectivity
-   <li>Hospital experience a plus</li>
+ <li>Must have current Georgia license</li>
+ <li>Current CPR certification</li>
+ <li>ACLS &amp; PALS certified</li>
+ <li>2-3 years experience preferred</li>
 </ol>
 
 <hr/>
