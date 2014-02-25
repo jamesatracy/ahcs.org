@@ -14,6 +14,41 @@ $this->pageHeader = "Job Opportunities";
 <p><img src="<?php echo $this->url('/assets/images/job-opportunities.jpg'); ?>" width="625" height="375" alt="Job Opportunities"/></p>
 
 <h3>Open Positions</h3>
+<p><strong>Hospital – (Auxiliary & Foundation Coordinator ) Part-time</strong></p>
+<p>Requirements: Must plan, prepare, organize & carry out activities of the Auxiliary, Volunteers and AHCS foundation, including community fundraising goals and events.</p>
+<p>QUALIFICATIONS:</p>
+<ol>
+ <li>Past or present affiliation with civil or local organizations preferred</li>
+ <li>Sales oriented</li>
+ <li>Prior fundraising experience</li>
+ <li>Basic computer skills</li>
+ <li>Strong organizational skills</li>
+ <li>Be a team leader</li>
+ <li>Must be detail oriented</li>
+ <li>Excellent communication skills</li>
+</ol>
+
+<p><strong>Pavilion- Assistant Activities Director - Fulltime</strong></p>
+<p>QUALIFICATIONS:</p>
+<ol>
+ <li>Must be able to work with residents & families to obtain activity history for care planning</li>
+ <li>Able to prepare, organize & carry out residents daily and group activities</li>
+ <li>Basic computer skills</li>
+ <li>Physical activity such as bending and lifting</li>
+ <li>Long term care experience a plus</li>
+</ol>
+
+<p><strong>ER – (RN) – Fulltime - Flexible hours<br/>
+Med Surg - (RN) (1) - Fulltime (7a-7p)<br/>
+ICU – (RN) – Fulltime (7a-7p)</strong></p>
+<p>QUALIFICATIONS:</p>
+<ol>
+ <li>Must have current Georgia license</li>
+ <li>Current CPR certification</li>
+ <li>ACLS & PALS certified</li>
+ <li>2-3 years experience preferred</li>
+</ol>
+
 <p><strong>Utilization Review - (Case Manager's ) (1)-Fulltime (1)-PRN</strong></p>
 <p>QUALIFICATIONS:</p>
 <ol>
@@ -25,21 +60,12 @@ $this->pageHeader = "Job Opportunities";
  <li>Knowledge of coding/healthcare payment systems</li>
 </ol>
 
-<p><strong>Med Surg - (PCT's) - (1)- Fulltime (7a -7p) (1) -Part-time (7p -7a)</strong></p>
+<p><strong>Med Surg - (PCT)– Part-time (7p -7a)</strong></p>
 <p>QUALIFICATIONS:</p>
 <ol>
  <li>Must have certification as nursing assistant</li>
  <li>Current CPR certification</li>
  <li>Computer charting (a plus)</li>
-</ol>
-
-<p><strong>Med Surg - (RN's or LPN's) (1) Fulltime (7a-7p) (1) Fulltime (7p-7a)</strong></p>
-<p>QUALIFICATIONS:</p>
-<ol>
- <li>Must have current Georgia license</li>
- <li>Current CPR certification</li>
- <li>ACLS &amp; PALS certified</li>
- <li>2-3 years experience preferred</li>
 </ol>
 
 <hr/>
