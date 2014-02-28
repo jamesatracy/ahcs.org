@@ -14,6 +14,28 @@ $this->pageHeader = "Job Opportunities";
 <p><img src="<?php echo $this->url('/assets/images/job-opportunities.jpg'); ?>" width="625" height="375" alt="Job Opportunities"/></p>
 
 <h3>Open Positions</h3>
+<p><strong>Purchasing –(Stock Clerk/Receptionist) – (Temporary- Fulltime 4-6 weeks only)</strong></p>
+<p>QUALIFICATIONS:</p>
+<ol>
+ <li>Must be able to lift up to 60 lbs.</li>
+ <li>Must maneuver heavy loads of supplies daily</li>
+ <li>Physical activity such as bending, lifting, walking and standing for long periods of time</li>
+ <li>Able to multi-task with good organizational skills</li>
+ <li>Good communication and phone skills</li>
+ <li>Ability to work in high pace environment</li>
+ <li>Computer experience (Meditech preferred)</li>
+</ol>
+
+<p><strong>AMG / Dr. Johnson - (Receptionist) - Fulltime</strong></p>
+<p>QUALIFICATIONS:</p>
+<ol>
+ <li>High school diploma or GED</li>
+ <li>Computer and basic office skills</li>
+ <li>Excellent communication skills dealing with Physicians, Patients and Family Members</li>
+ <li>Able to work in high pace work environment</li>
+ <li>Bi-lingual (preferred)</li>
+</ol>
+
 <p><strong>Hospital – (Auxiliary & Foundation Coordinator ) Part-time</strong></p>
 <p>Requirements: Must plan, prepare, organize & carry out activities of the Auxiliary, Volunteers and AHCS foundation, including community fundraising goals and events.</p>
 <p>QUALIFICATIONS:</p>
@@ -28,16 +50,6 @@ $this->pageHeader = "Job Opportunities";
  <li>Excellent communication skills</li>
 </ol>
 
-<p><strong>Pavilion- Assistant Activities Director - Fulltime</strong></p>
-<p>QUALIFICATIONS:</p>
-<ol>
- <li>Must be able to work with residents & families to obtain activity history for care planning</li>
- <li>Able to prepare, organize & carry out residents daily and group activities</li>
- <li>Basic computer skills</li>
- <li>Physical activity such as bending and lifting</li>
- <li>Long term care experience a plus</li>
-</ol>
-
 <p><strong>ER – (RN) – Fulltime - Flexible hours<br/>
 Med Surg - (RN) (1) - Fulltime (7a-7p)<br/>
 ICU – (RN) – Fulltime (7a-7p)</strong></p>
@@ -47,25 +59,6 @@ ICU – (RN) – Fulltime (7a-7p)</strong></p>
  <li>Current CPR certification</li>
  <li>ACLS & PALS certified</li>
  <li>2-3 years experience preferred</li>
-</ol>
-
-<p><strong>Utilization Review - (Case Manager's ) (1)-Fulltime (1)-PRN</strong></p>
-<p>QUALIFICATIONS:</p>
-<ol>
- <li>3-5 years experience in Utilization Review or Case Management</li>
- <li>Registered Nurse</li>
- <li>Must be able to work in fast pace high volume environment</li>
- <li>Strong clinical background</li>
- <li>Swing bed knowledge preferred</li>
- <li>Knowledge of coding/healthcare payment systems</li>
-</ol>
-
-<p><strong>Med Surg - (PCT)– Part-time (7p -7a)</strong></p>
-<p>QUALIFICATIONS:</p>
-<ol>
- <li>Must have certification as nursing assistant</li>
- <li>Current CPR certification</li>
- <li>Computer charting (a plus)</li>
 </ol>
 
 <hr/>
