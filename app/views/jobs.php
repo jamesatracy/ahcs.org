@@ -26,16 +26,6 @@ $this->pageHeader = "Job Opportunities";
  <li>Computer experience (Meditech preferred)</li>
 </ol>
 
-<p><strong>AMG / Dr. Johnson - (Receptionist) - Fulltime</strong></p>
-<p>QUALIFICATIONS:</p>
-<ol>
- <li>High school diploma or GED</li>
- <li>Computer and basic office skills</li>
- <li>Excellent communication skills dealing with Physicians, Patients and Family Members</li>
- <li>Able to work in high pace work environment</li>
- <li>Bi-lingual (preferred)</li>
-</ol>
-
 <p><strong>Hospital – (Auxiliary & Foundation Coordinator ) Part-time</strong></p>
 <p>Requirements: Must plan, prepare, organize & carry out activities of the Auxiliary, Volunteers and AHCS foundation, including community fundraising goals and events.</p>
 <p>QUALIFICATIONS:</p>
