@@ -1,4 +1,4 @@
-<footer role="footer">
+<footer role="contentinfo">
 	<section id="content-footer" class="container content">
 		<div class="row">
 			<div class="col-xs-4 first">
