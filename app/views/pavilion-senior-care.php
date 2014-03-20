@@ -25,7 +25,7 @@ $this->pageHeader = "Pavilion &amp; Senior Care";
 	<li>Chapel to meet all spiritual needs</li>
 </ul>
 
-<p><img src="<?php echo $this->url('/assets/images/the-pavilion-outside.jpg'); ?>" width="625" height="300" alt="The Pavilion" /></p>
+<p><img src="<?php echo $this->url('/assets/images/the-pavilion-outside.jpg'); ?>" width="625" height="300" alt="Image of the front entrance to the Pavilion building" /></p>
 
 <h3>The Senior Care Unit</h3>
 <h4>Recovery for Seniors</h4>
@@ -33,8 +33,8 @@ $this->pageHeader = "Pavilion &amp; Senior Care";
 <p>Aging can present unique mental health needs and challenges that older adults often find difficult to overcome.  The Senior Care Unit at Appling HealthCare System assists older adults and their families in understanding and learning to cope with these problems related to the aging process.  Our goal is to maintain and enhance the patient's self respect during every phase of treatment.</p>
 
 <p>
-<img src="<?php echo $this->url('/assets/images/senior-care-unit.jpg'); ?>" width="300" height="200" alt="The Senior Care Unit" />
-<img src="<?php echo $this->url('/assets/images/senior-care-activity.jpg'); ?>" width="300" height="200" alt="The Senior Care Unit" />
+<img src="<?php echo $this->url('/assets/images/senior-care-unit.jpg'); ?>" width="300" height="200" alt="Image of a senior and a Pavilion staff member" />
+<img src="<?php echo $this->url('/assets/images/senior-care-activity.jpg'); ?>" width="300" height="200" alt="Image of a senior having her nails painted" />
 </p>
 
 <h4>A Comprehensive Approach to Healing</h4>
