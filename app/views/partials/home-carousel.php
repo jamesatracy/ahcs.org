@@ -1,28 +1,28 @@
 <div class="container content">
 	<section id="carousel" class="carousel slide" data-ride="carousel" data-interval="8000">
 		<!-- Indicators -->
-		<ol id="carousel-indicators" class="carousel-indicators">
-			<li data-target="#carousel" data-slide-to="0" class="active"></li>
-			<li data-target="#carousel" data-slide-to="1"></li>
-			<li data-target="#carousel" data-slide-to="2"></li>
-			<li data-target="#carousel" data-slide-to="3"></li>
+		<ol id="carousel-indicators" class="carousel-indicators" role="presentation">
+			<li data-target="#carousel" data-slide-to="0" class="active" role="presentation"></li>
+			<li data-target="#carousel" data-slide-to="1" role="presentation"></li>
+			<li data-target="#carousel" data-slide-to="2" role="presentation"></li>
+			<li data-target="#carousel" data-slide-to="3" role="presentation"></li>
 		</ol>
 		<div id="carousel-inner" class="carousel-inner">
 			<div class="item active">
-				<img src="<?php echo $this->url("/assets/images/hero-photo-1-fixed.jpg"); ?>" alt="Appling Hero Photo 1"/>
+				<img src="<?php echo $this->url("/assets/images/hero-photo-1-fixed.jpg"); ?>" alt="Image of front of Appling Healthcare building"/>
 			</div>
 			<div class="item">
-				<img src="<?php echo $this->url("/assets/images/hero-photo-2-fixed.jpg"); ?>" alt="Appling Hero Photo 2"/>
+				<img src="<?php echo $this->url("/assets/images/hero-photo-2-fixed.jpg"); ?>" alt="Image of MRI machine"/>
 			</div>
 			<div class="item">
-				<img src="<?php echo $this->url("/assets/images/hero-photo-3-fixed.jpg"); ?>" alt="Appling Hero Photo 3"/>
+				<img src="<?php echo $this->url("/assets/images/hero-photo-3-fixed.jpg"); ?>" alt="Image of Appling Healthcare staff"/>
 			</div>
 			<div class="item">
-				<img src="<?php echo $this->url("/assets/images/hero-photo-4-fixed.jpg"); ?>" alt="Appling Hero Photo 4"/>
+				<img src="<?php echo $this->url("/assets/images/hero-photo-4-fixed.jpg"); ?>" alt="Image of new born baby being examined by a doctor with a stethoscope"/>
 			</div>
 		</div>
-		<a id="carousel-control-left" class="left carousel-control" href="#carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-		<a id="carousel-control-right" class="right carousel-control" href="#carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+		<a id="carousel-control-left" class="left carousel-control" href="#carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a>
+		<a id="carousel-control-right" class="right carousel-control" href="#carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
 		<div class="carousel-caption">
 			<h1>Quality Care Close to Home</h1>
 		</div>
