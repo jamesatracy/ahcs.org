@@ -11,7 +11,7 @@ $this->pageHeader = "Job Opportunities";
 
 <p>Come join our AHCS Family!</p>
 
-<p><img src="<?php echo $this->url('/assets/images/job-opportunities.jpg'); ?>" width="625" height="375" alt="Job Opportunities"/></p>
+<p><img src="<?php echo $this->url('/assets/images/job-opportunities.jpg'); ?>" width="625" height="375" alt="Image of Appling Healthcare staff"/></p>
 
 <h3>Open Positions</h3>
 <p><strong>Purchasing –(Stock Clerk/Receptionist) – (Temporary- Fulltime 4-6 weeks only)</strong></p>
