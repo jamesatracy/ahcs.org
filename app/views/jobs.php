@@ -14,6 +14,15 @@ $this->pageHeader = "Job Opportunities";
 <p><img src="<?php echo $this->url('/assets/images/job-opportunities.jpg'); ?>" width="625" height="375" alt="Image of Appling Healthcare staff"/></p>
 
 <h3>Open Positions</h3>
+<p><strong>AMG / Knicole Lee, NP– (Receptionist) – Part-time</sttrong></p>
+<p>QUALIFICATIONS:</p>
+<ol>
+ <li>High school diploma or GED</li>
+ <li>Computer and basic office skills</li>
+ <li>Excellent communication skills dealing with Physicians, Patients and family members</li>
+ <li>Able to work in high pace work environment</li>
+</ol>
+ 
 <p><strong>Dialysis – (RN) – PRN</strong></p>
 <p>QUALIFICATIONS:</p>
 <ol>
@@ -23,7 +32,7 @@ $this->pageHeader = "Job Opportunities";
  <li>Experience required</li>
 </ol>
 
-<p><strong>Med Surg - (RN’s) (2) - Fulltime (7a-7p) & (7p-7a)</strong></p>
+<p><strong>Med Surg - (RN's) (2) - Fulltime (7a-7p) & (7p-7a)</strong></p>
 <p>QUALIFICATIONS:</p>
 <ol>
  <li>Must have current Georgia license</li>
