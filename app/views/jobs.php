@@ -14,30 +14,42 @@ $this->pageHeader = "Job Opportunities";
 <p><img src="<?php echo $this->url('/assets/images/job-opportunities.jpg'); ?>" width="625" height="375" alt="Image of Appling Healthcare staff"/></p>
 
 <h3>Open Positions</h3>
-<p><strong>AMG / Knicole Lee, NP– (Receptionist) – Part-time</sttrong></p>
+<p><strong>Hospital - (Medical Biller) - Fulltime</strong></p>
 <p>QUALIFICATIONS:</p>
 <ol>
- <li>High school diploma or GED</li>
- <li>Computer and basic office skills</li>
- <li>Excellent communication skills dealing with Physicians, Patients and family members</li>
- <li>Able to work in high pace work environment</li>
+ <li>Must have 2 years of medical billing experience </li>
+ <li>2 plus years experience in Medicare billing </li>
+ <li>Strong understanding of electronic medical billing</li>
+ <li>A background in Hospital and/or medical facility preferred</li>
+ <li>Working knowledge of ICD-9, CPT, HCPCS medical coding</li>
+ <li>Healthcare Management experience preferred</li>
+ <li>Ability to multi-task and oversee multiple projects</li>
 </ol>
- 
-<p><strong>Dialysis – (RN) – PRN</strong></p>
+
+<p><strong>Senior Care Unit - (LPN) - PRN</strong></p>
+<p>QUALIFICATIONS:</p>
+<ol>
+ <li>Must have current Georgia LPN license </li>
+ <li>Current CPR certification </li>
+ <li>Available to work flexible hours</li>
+ <li>2-3 years experience preferred</li>
+</ol>
+
+<p><strong>Dialysis - (RN) - PRN</strong></p>
 <p>QUALIFICATIONS:</p>
 <ol>
  <li>Must have current Georgia RN license</li>
  <li>Current CPR certification</li>
- <li>ACLS & PALS certified</li>
+ <li>ACLS &amp; PALS certified</li>
  <li>Experience required</li>
 </ol>
 
-<p><strong>Med Surg - (RN's) (2) - Fulltime (7a-7p) & (7p-7a)</strong></p>
+<p><strong>Med Surg - (RN's) (2) - Fulltime (7a-7p) &amp; (7p-7a)</strong></p>
 <p>QUALIFICATIONS:</p>
 <ol>
  <li>Must have current Georgia license</li>
  <li>Current CPR certification</li>
- <li>ACLS & PALS certified</li>
+ <li>ACLS &amp; PALS certified</li>
  <li>2-3 years experience preferred</li>
 </ol>
 
