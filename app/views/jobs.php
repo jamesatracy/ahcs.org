@@ -14,16 +14,24 @@ $this->pageHeader = "Job Opportunities";
 <p><img src="<?php echo $this->url('/assets/images/job-opportunities.jpg'); ?>" width="625" height="375" alt="Image of Appling Healthcare staff"/></p>
 
 <h3>Open Positions</h3>
-<p><strong>Hospital - (Medical Biller) - Fulltime</strong></p>
+<p><strong>Financial Srvs. - (Office Manager / Medicare Biller) - Fulltime</strong></p>
 <p>QUALIFICATIONS:</p>
 <ol>
- <li>Must have 2 years of medical billing experience </li>
- <li>2 plus years experience in Medicare billing </li>
+ <li>Must have 2 years of medical billing experience</li>
+ <li>2 plus years experience in Medicare billing</li>
  <li>Strong understanding of electronic medical billing</li>
  <li>A background in Hospital and/or medical facility preferred</li>
  <li>Working knowledge of ICD-9, CPT, HCPCS medical coding</li>
  <li>Healthcare Management experience preferred</li>
  <li>Ability to multi-task and oversee multiple projects</li>
+</ol>
+
+<p><strong>Respiratory - (CRT/ RRT) - Part-time</strong></p>
+<p>QUALIFICATIONS:</p>
+<ol>
+ <li>Must have current Georgia license</li> 
+ <li>Current CPR &amp; ACLS certification</li>
+ <li>NBRC credentials required</li>
 </ol>
 
 <p><strong>Senior Care Unit - (LPN) - PRN</strong></p>
@@ -51,6 +59,15 @@ $this->pageHeader = "Job Opportunities";
  <li>Current CPR certification</li>
  <li>ACLS &amp; PALS certified</li>
  <li>2-3 years experience preferred</li>
+</ol>
+
+<p><strong>Med Surg - (PCT’s) Fulltime (2)- (7p-7a) &amp; Part-time (1) - (7p-7a)</strong></p>
+<p>QUALIFICATIONS:</p>
+<ol>
+ <li>Must have current CNA certificate</li> 
+ <li>Current CPR certification</li> 
+ <li>Computer charting (a plus)</li>
+ <li>Experience preferred</li>
 </ol>
 
 <hr/>
