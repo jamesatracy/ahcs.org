@@ -261,15 +261,6 @@ $this->prepend("scripts"); ?>
 			<td></td>
 		</tr>
 		<tr>
-			<td><img src="<?php echo $this->url('/assets/images/staff/Vicki_Woods.jpg'); ?>" width="71" height="100" /></td>
-			<td>Woods, Vicki, CRNA</td>
-			<td>Appling HealthCare System</td>
-			<td>163 East Tollison Street<br/>
-			Baxley, GA  31513</td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
 			<td><img src="<?php echo $this->url('/assets/images/staff/Melanie_Young.jpg'); ?>" width="71" height="100" /></td>
 			<td>Young, Melanie, FNP</td>
 			<td>Appling Pediatrics</td>
