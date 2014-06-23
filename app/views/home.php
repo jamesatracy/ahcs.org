@@ -30,10 +30,6 @@ $this->prepend("scripts"); ?>
 				<p>Appling is a compassionate, family-oriented environment. Every member of our team is committed to meeting the needs of not only our patients but their families as well.</p>
 				<p>On behalf of the entire team at Appling HealthCare System, please accept our best wishes for your good health.  We take pride in offering you high quality and compassionate care, and we appreciate your decision to entrust your care to us.  If there is anything we can do to make your stay better, please let us know.</p>
 				
-				<h3>Scam Alert!!!!</h3>
-				<p>This administration has been informed that there is an on going scam targeting the hospital.  The scammers are calling people through out Appling and surrounding counties saying that they are collecting money because the hospital is about to close.  There has been several versions of the story.</p>
-				<p>We are not closing and there is no type of fund raising campaign going on.  If you talk to somebody and they have made a donation to this supposed campaign they should contact the Appling County Sheriff’s Department immediately at 367-8120.</p>
-				
 				<h3>Online Bill Pay Coming Soon!</h3>
 				<p>You will soon be able to easily pay your medical bills from anywhere with a click of a button</p>
 				<p><a href="<?php echo $this->urlAlias('contact'); ?>">Contact us to learn more</a>.</p>
