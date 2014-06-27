@@ -14,37 +14,57 @@ $this->pageHeader = "Job Opportunities";
 <p><img src="<?php echo $this->url('/assets/images/job-opportunities.jpg'); ?>" width="625" height="375" alt="Image of Appling Healthcare staff"/></p>
 
 <h3>Open Positions</h3>
-<p><strong>RN’s<br/>
+<p><strong>Hospital Commerical Insurance Biller - Fulltime</strong></p>
+<p>Requirements:</p>
+<ul>
+ <li>Two plus years hospital billing experience</li>
+ <li>Knowledge of ICD-9 codes</li>
+ <li>Ability to work independently and within a group</li>
+ <li>Knowledge of requirements for third party insurance payers</li>
+ <li>Ability to ensure accurate and timely filing of all commercial hospital claims</li>
+</ul>
+
+<p><strong>Physician Biller - Fulltime</strong></p>
+<p>Requirements:</p>
+<ul>
+ <li>Two plus years physician billing experience</li>
+ <li>Experience with primary care, pediatrics, and other specialties preferred</li>
+ <li>Knowledge of ICD-9 codes</li>
+ <li>Ability to work independently or within a group</li>
+ <li>Ability to ensure accurate and timely filing of physician claims</li>
+</ul>
+
+<p><strong>RN's<br/>
 ER - 1- Fulltime (7p -7a) 1- PRN<br/>
 Med Surg / ICU - 1- Fulltime (7a-7p) 1- Part-time (7a -7p)<br/>
 Dialysis - PRN</strong></p>
-<p>QUALIFICATIONS:</p>
-<ol>
+<p>Requirements:</p>
+<ul>
  <li>Must have current Georgia RN License</li>
  <li>Current CPR certification</li>
- <li>ACLS &amp; PALS certified</li>
+ <li>ACLS & PALS certified</li>
  <li>2-3 years experience preferred</li>
-</ol>
+</ul>
 
-<p><strong>PCT’s<br/>
+<p><strong>PCT's<br/>
 Med Surg - Fulltime – (7a -7p)<br/>
 Part-time 1 - (7p-7a) 1 - (7a -7p)</strong></p>
-<p>QUALIFICATIONS:</p>
-<ol>
+<p>Requirements:</p>
+<ul>
  <li>Must have current CNA certificate</li>
  <li>Current CPR certification</li>
  <li>Computer charting (a plus)</li>
  <li>Experience preferred</li>
-</ol>
+</ul>
 
 <p><strong>Radiology Tech<br/>
 PRN</strong></p>
-<p>QUALIFICATIONS:</p>
-<ol>
+<p>Requirements:</p>
+<ul>
  <li>Must be registered by the ARRT or registry eligible</li>
  <li>Required to cross-train in other areas throughout the department</li>
  <li>Must be willing to take call and work all shifts as needed</li>
-</ol>
+</ul>
 
 <hr/>
 
