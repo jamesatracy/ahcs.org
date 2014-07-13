@@ -1,21 +1,26 @@
 <h3>Appling News</h3>
 <?php 
-global $wpdb;
-$results = $wpdb->get_results("SELECT * FROM wp_posts WHERE post_type = 'post' AND post_status = 'publish' ORDER BY post_date DESC LIMIT 5", OBJECT );
+$the_query = new WP_Query('posts_per_page=5');
 
-foreach($results as $post) {
+if ($the_query->have_posts()) {
+  while ($the_query->have_posts()) {
+    $the_query->the_post();
 ?>
   <article>
     <header>
-      <p><strong><?php echo $post->post_title; ?></strong> <em><?php echo date("m/d/Y", strtotime($post->post_date)); ?></em></p>
-      <?php
-      $content = $post->post_content;
-      if(strlen($content) > 500) {
-        $content = substr($content, 500) . "...";
-      }
-      ?>
-      <p><?php echo $content; ?></p>
+      <p>
+        <strong><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php echo get_the_title(); ?></a></strong> <em><?php echo date("m/d/Y", strtotime(get_the_date())); ?></em>
+      </p>
+      <p><?php echo the_excerpt(); ?></p>
   </article>
+<?php
+  }
+?>
+  <p><a href="<?php echo $this->url('news'); ?>">Read all news</a></p>
+<?php
+} else {
+?>
+  <p>None.</p>
 <?php
 }
 ?>
