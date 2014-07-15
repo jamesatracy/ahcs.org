@@ -19,7 +19,7 @@
 define('DB_NAME', 'ahcs');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', '');
 
 /** MySQL database password */
 define('DB_PASSWORD', '');
