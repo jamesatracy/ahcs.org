@@ -14,61 +14,57 @@ $this->pageHeader = "Job Opportunities";
 <p><img src="<?php echo $this->url('/assets/images/job-opportunities.jpg'); ?>" width="625" height="375" alt="Image of Appling Healthcare staff"/></p>
 
 <h3>Open Positions</h3>
-<p><strong>Financial Srvs. - (Office Manager / Medicare Biller) - Fulltime</strong></p>
-<p>QUALIFICATIONS:</p>
-<ol>
- <li>Must have 2 years of medical billing experience</li>
- <li>2 plus years experience in Medicare billing</li>
- <li>Strong understanding of electronic medical billing</li>
- <li>A background in Hospital and/or medical facility preferred</li>
- <li>Working knowledge of ICD-9, CPT, HCPCS medical coding</li>
- <li>Healthcare Management experience preferred</li>
- <li>Ability to multi-task and oversee multiple projects</li>
-</ol>
+<p><strong>Hospital Commerical Insurance Biller - Fulltime</strong></p>
+<p>Requirements:</p>
+<ul>
+ <li>Two plus years hospital billing experience</li>
+ <li>Knowledge of ICD-9 codes</li>
+ <li>Ability to work independently and within a group</li>
+ <li>Knowledge of requirements for third party insurance payers</li>
+ <li>Ability to ensure accurate and timely filing of all commercial hospital claims</li>
+</ul>
 
-<p><strong>Respiratory - (CRT/ RRT) - Part-time</strong></p>
-<p>QUALIFICATIONS:</p>
-<ol>
- <li>Must have current Georgia license</li> 
- <li>Current CPR &amp; ACLS certification</li>
- <li>NBRC credentials required</li>
-</ol>
+<p><strong>Physician Biller - Fulltime</strong></p>
+<p>Requirements:</p>
+<ul>
+ <li>Two plus years physician billing experience</li>
+ <li>Experience with primary care, pediatrics, and other specialties preferred</li>
+ <li>Knowledge of ICD-9 codes</li>
+ <li>Ability to work independently or within a group</li>
+ <li>Ability to ensure accurate and timely filing of physician claims</li>
+</ul>
 
-<p><strong>Senior Care Unit - (LPN) - PRN</strong></p>
-<p>QUALIFICATIONS:</p>
-<ol>
- <li>Must have current Georgia LPN license </li>
- <li>Current CPR certification </li>
- <li>Available to work flexible hours</li>
- <li>2-3 years experience preferred</li>
-</ol>
-
-<p><strong>Dialysis - (RN) - PRN</strong></p>
-<p>QUALIFICATIONS:</p>
-<ol>
- <li>Must have current Georgia RN license</li>
+<p><strong>RN's<br/>
+ER - 1- Fulltime (7p -7a) 1- PRN<br/>
+Med Surg / ICU - 1- Fulltime (7a-7p) 1- Part-time (7a -7p)<br/>
+Dialysis - PRN</strong></p>
+<p>Requirements:</p>
+<ul>
+ <li>Must have current Georgia RN License</li>
  <li>Current CPR certification</li>
- <li>ACLS &amp; PALS certified</li>
- <li>Experience required</li>
-</ol>
-
-<p><strong>Med Surg - (RN's) (2) - Fulltime (7a-7p) &amp; (7p-7a)</strong></p>
-<p>QUALIFICATIONS:</p>
-<ol>
- <li>Must have current Georgia license</li>
- <li>Current CPR certification</li>
- <li>ACLS &amp; PALS certified</li>
+ <li>ACLS & PALS certified</li>
  <li>2-3 years experience preferred</li>
-</ol>
+</ul>
 
-<p><strong>Med Surg - (PCT’s) Fulltime (2)- (7p-7a) &amp; Part-time (1) - (7p-7a)</strong></p>
-<p>QUALIFICATIONS:</p>
-<ol>
- <li>Must have current CNA certificate</li> 
- <li>Current CPR certification</li> 
+<p><strong>PCT's<br/>
+Med Surg - Fulltime – (7a -7p)<br/>
+Part-time 1 - (7p-7a) 1 - (7a -7p)</strong></p>
+<p>Requirements:</p>
+<ul>
+ <li>Must have current CNA certificate</li>
+ <li>Current CPR certification</li>
  <li>Computer charting (a plus)</li>
  <li>Experience preferred</li>
-</ol>
+</ul>
+
+<p><strong>Radiology Tech<br/>
+PRN</strong></p>
+<p>Requirements:</p>
+<ul>
+ <li>Must be registered by the ARRT or registry eligible</li>
+ <li>Required to cross-train in other areas throughout the department</li>
+ <li>Must be willing to take call and work all shifts as needed</li>
+</ul>
 
 <hr/>
 
