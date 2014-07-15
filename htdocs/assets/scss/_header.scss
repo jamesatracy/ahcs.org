@@ -1,0 +1,51 @@
+@import "lib";
+@import "compass/utilities/general/clearfix";
+
+
+/* HEADER
+-------------------------------------------------- */
+#main-page-header {
+	margin: 0;
+	height: 120px;
+	@include background-image($path: 'bkg-header-band.png', $repeat: repeat-x);
+	
+	.header-inner {
+		padding: 0 20px 0 5px;
+		@include clearfix();
+	}
+	
+	.header-icons {
+		margin-top: 16px;
+	}
+	
+	.header-lang {
+		margin-top: 30px;
+		margin-right: 10px;
+		width: 154px;
+	}
+	
+	.icons {
+		margin-bottom: 0;
+		text-align: center;
+		width: 74px;
+		float: left;
+		
+		small {
+			font-size: 10px;
+			line-height: 1;
+		}
+	}
+
+	.header-hometown-health {
+		margin-top: 50px;
+		font-size: 12pt;
+		font-style: italic;
+		margin-left: 20px;
+		color: $primary-color;
+	}
+	
+	.hospital-portal,
+	.clinic-portal {
+		margin: 3px 10px;
+	}
+}

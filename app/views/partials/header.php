@@ -6,6 +6,9 @@
 					<img id="logo" src="<?php echo $this->url("/assets/images/app_logo_188x120.png"); ?>" width="188" height="120" alt="Appling HealthCare System"/>
 				</a>
 			</div>
+			<div class="pull-left">
+				<p class="header-hometown-health">2013 HomeTown Health Hospital of the Year!</p>
+			</div>
 			<div class="pull-right">
 				<div class="header-icons">
 					<p class="icons">

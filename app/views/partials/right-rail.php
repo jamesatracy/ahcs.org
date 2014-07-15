@@ -1,9 +1,26 @@
 <h3>Appling News</h3>
-<p><strong>Geriatric Psychiatric Beds Added</strong> <em>12/27/2013</em></p>
-<p>Appling HealthCare System was granted by certificate of need from the Georgia Department of Community Health, 15 additional Geriatric Psychiatric beds on December 27th, 2013.</p>
+<?php 
+$the_query = new WP_Query('posts_per_page=5');
 
-<p><strong>Appling Healthcare ISO 9001 certified</strong> <em>12/27/2013</em></p>
-<p>Appling HealthCare System is one of two hospitals in the state of Georgia that is ISO 9001 certified.</p>
-
-<p><strong>Hometown Health Hospital of the Year!</strong></a> <em>11/14/2013</em></p>
-<p>Appling Healthcare System was awarded the 2013 hospital of the year award by Hometown Health at the fall conference at Callaway Gardens on November 14th, 2013. </p>
+if ($the_query->have_posts()) {
+  while ($the_query->have_posts()) {
+    $the_query->the_post();
+?>
+  <article>
+    <header>
+      <p>
+        <strong><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php echo get_the_title(); ?></a></strong> <em><?php echo date("m/d/Y", strtotime(get_the_date())); ?></em>
+      </p>
+      <p><?php echo the_excerpt(); ?></p>
+  </article>
+<?php
+  }
+?>
+  <p><a href="<?php echo $this->url('news'); ?>">Read all news</a></p>
+<?php
+} else {
+?>
+  <p>None.</p>
+<?php
+}
+?>

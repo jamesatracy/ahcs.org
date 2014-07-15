@@ -1,40 +1,17 @@
 <?php
 /**
- * Backbone.php
- * 
- * @author	James Tracy <james.a.tracy@gmail.com>
- * @copyright	2012-2013
- * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link https://github.com/jamesatracy/Backbone.php GitHub Page
+ * Front to the WordPress application. This file doesn't do anything, but loads
+ * wp-blog-header.php which does and tells WordPress to load the theme.
+ *
+ * @package WordPress
  */
 
-// root directory path constant
-define('ABSPATH', dirname(__FILE__).'/');
+/**
+ * Tells WordPress to load the WordPress theme and output it.
+ *
+ * @var bool
+ */
+define('WP_USE_THEMES', true);
 
-// load backbone.php configurations
-require_once(ABSPATH."config.php");
-
-// sanity checks
-if(!defined('FRAMEWORK')) {
-	echo "Backbone.php configuration error: FRAMEWORK constant not defined.";
-	exit(1);
-}
-if(!$VIEWPATH) {
-	echo "Backbone.php configuration error: \$VIEWPATH not defined.";
-	exit(1);
-}
-
-// load the framework
-require_once(FRAMEWORK."Backbone.class.php");
-
-//  load boot file
-if(!file_exists("boot.php")) {
-	// The boot file defines Routers and other necessary start up includes.
-	echo "Missing boot.php!";
-	exit(1);
-}
-
-require("boot.php");
-
-Backbone::start();
-?>
+/** Loads the WordPress Environment and Template */
+require( dirname( __FILE__ ) . '/wp-blog-header.php' );

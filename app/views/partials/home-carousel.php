@@ -34,7 +34,7 @@
 						<h3>Patient &amp; Visitor Services</h3>
 						<img src="<?php echo $this->url("/assets/images/patient-services.jpg"); ?>" alt="Patient and Visitor Services" width="180" height="150"/>
 						<p class="desc">Discover our amenities for patients and visitors.</p>
-						<p><a href="<?php echo $this->urlAlias("patient-visitor-services"); ?>" class="btn btn-secondary">Click for More</a></p>
+						<p><a href="<?php echo $this->url("patient-visitor-services"); ?>" class="btn btn-secondary">Click for More</a></p>
 					</div>
 				</div>
 				<div class="col-xs-3">
@@ -42,7 +42,7 @@
 						<h3>Physician Directory</h3>
 						<img src="<?php echo $this->url("/assets/images/physicians.jpg"); ?>" alt="Physician Directory" width="180" height="150"/>
 						<p class="desc">Learn about our services and world class physicians.</p>
-						<p><a href="<?php echo $this->urlAlias("physician-services-directory"); ?>" class="btn btn-secondary">Click for More</a></p>
+						<p><a href="<?php echo $this->url("physician-services-directory"); ?>" class="btn btn-secondary">Click for More</a></p>
 					</div>
 				</div>
 				<div class="col-xs-3">
@@ -50,7 +50,7 @@
 						<h3>Pavilion &amp; Senior Care</h3>
 						<img src="<?php echo $this->url("/assets/images/senior-care.jpg"); ?>" alt="Pavillion and Senior Care" width="180" height="150"/>
 						<p class="desc">Explore the pavilion and senior care center.</p>
-						<p><a href="<?php echo $this->urlAlias("pavilion-senior-care"); ?>" class="btn btn-secondary">Click for More</a></p>
+						<p><a href="<?php echo $this->url("pavilion-senior-care"); ?>" class="btn btn-secondary">Click for More</a></p>
 					</div>
 				</div>
 				<div class="col-xs-3">
@@ -58,7 +58,7 @@
 						<h3>Maps &amp; Directions</h3>
 						<img src="<?php echo $this->url("/assets/images/map.jpg"); ?>" alt="Map and Directions" width="180" height="150"/>
 						<p class="desc">Get directions to our location and explore our facility.</p>
-						<p><a href="<?php echo $this->urlAlias("contact"); ?>" class="btn btn-secondary">Click for More</a></p>
+						<p><a href="<?php echo $this->url("contact"); ?>" class="btn btn-secondary">Click for More</a></p>
 					</div>
 				</div>
 			</div>
