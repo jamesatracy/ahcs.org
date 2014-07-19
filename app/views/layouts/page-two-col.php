@@ -12,9 +12,9 @@
 			<div class="col-xs-8">
 				<?php $this->render("content"); ?>
 			</div>
-			<div id="right-rail" class="col-xs-4" role="complementary">
+			<aside id="right-rail" class="col-xs-4" role="complementary">
 				<?php $this->display("/partials/right-rail"); ?>
-			</div>
+			</aside>
 		</div>
 	</div>
 </div>

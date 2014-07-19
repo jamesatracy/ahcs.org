@@ -18,10 +18,10 @@
 	<script>document.body.className = 'js'</script>
 	<?php $this->display("/partials/header"); ?>
 	<?php $this->display("/partials/navigation"); ?>
-	<div id="content" role="main">
+	<main id="content" role="main">
 		<?php $this->render("banner"); ?>
 		<?php $this->render("content"); ?>
-	</div>
+	</main>
 	<footer>
 		<?php $this->display("/partials/footer"); ?>
 	</footer>
