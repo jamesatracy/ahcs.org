@@ -1,6 +1,6 @@
 <h3>Appling News</h3>
 <?php 
-$the_query = new WP_Query('posts_per_page=5');
+$the_query = new WP_Query('posts_per_page=3');
 
 if ($the_query->have_posts()) {
   while ($the_query->have_posts()) {
