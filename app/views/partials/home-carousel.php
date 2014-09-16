@@ -9,16 +9,16 @@
 		</ol>
 		<div id="carousel-inner" class="carousel-inner">
 			<div class="item active">
-				<img src="<?php echo $this->url("/assets/images/hero-photo-1-fixed.jpg"); ?>" alt="Image of front of Appling Healthcare building"/>
+				<img src="<?php echo $this->url("/assets/images/hero-photo-1-fixed.jpg"); ?>" alt="Front of Appling Healthcare building"/>
 			</div>
 			<div class="item">
-				<img src="<?php echo $this->url("/assets/images/hero-photo-2-fixed.jpg"); ?>" alt="Image of MRI machine"/>
+				<img src="<?php echo $this->url("/assets/images/hero-photo-2-fixed.jpg"); ?>" alt="MRI machine"/>
 			</div>
 			<div class="item">
-				<img src="<?php echo $this->url("/assets/images/hero-photo-3-fixed.jpg"); ?>" alt="Image of Appling Healthcare staff"/>
+				<img src="<?php echo $this->url("/assets/images/hero-photo-3-fixed.jpg"); ?>" alt="Appling Healthcare staff"/>
 			</div>
 			<div class="item">
-				<img src="<?php echo $this->url("/assets/images/hero-photo-4-fixed.jpg"); ?>" alt="Image of new born baby being examined by a doctor with a stethoscope"/>
+				<img src="<?php echo $this->url("/assets/images/hero-photo-5-fixed.jpg"); ?>" alt="Nurse working with a microscope"/>
 			</div>
 		</div>
 		<a id="carousel-control-left" class="left carousel-control" href="#carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a>
