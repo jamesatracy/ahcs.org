@@ -16,7 +16,7 @@
 						<a href="https://srvahcsptweb.myahcs.org" target="_blank"><small>Hospital Portal</small></a>
 					</p>
 					<p class="icons">
-						<a href="<?php echo $this->urlAlias('coming-soon'); ?>" title="Clinic Patient Portal -- Coming Soon!"><img class="clinic-portal" src="<?php echo $this->url("/assets/images/patient-portal-icon.jpg"); ?>" width="53" height="56" alt="Clinic Patient Portal Link"/></a>
+						<a href="https://mycw87.ecwcloud.com/portal11685/jsp/login.jsp" target="_blank" title="Clinic Patient Portal"><img class="clinic-portal" src="<?php echo $this->url("/assets/images/patient-portal-icon.jpg"); ?>" width="53" height="56" alt="Clinic Patient Portal Link"/></a>
 						<a href="https://mycw87.ecwcloud.com/portal11685/jsp/login.jsp" target="_blank"><small>Clinic Portal</small></a>
 					</p>
 				</div>
