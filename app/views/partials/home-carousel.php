@@ -12,7 +12,7 @@
 				<img src="<?php echo $this->url("/assets/images/hero-photo-1-fixed.jpg"); ?>" alt="Front of Appling Healthcare building"/>
 			</div>
 			<div class="item">
-				<img src="<?php echo $this->url("/assets/images/hero-photo-2-fixed.jpg"); ?>" alt="MRI machine"/>
+				<img src="<?php echo $this->url("/assets/images/hero-photo-6-fixed.jpg"); ?>" alt="MRI machine"/>
 			</div>
 			<div class="item">
 				<img src="<?php echo $this->url("/assets/images/hero-photo-3-fixed.jpg"); ?>" alt="Appling Healthcare staff"/>
