@@ -18,7 +18,7 @@
 				<img src="<?php echo $this->url("/assets/images/hero-photo-3-fixed.jpg"); ?>" alt="Appling Healthcare staff"/>
 			</div>
 			<div class="item">
-				<img src="<?php echo $this->url("/assets/images/hero-photo-5-fixed.jpg"); ?>" alt="Nurse working with a microscope"/>
+				<img src="<?php echo $this->url("/assets/images/hero-photo-7-fixed.jpg"); ?>" alt="Nurse working with a microscope"/>
 			</div>
 		</div>
 		<a id="carousel-control-left" class="left carousel-control" href="#carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a>
