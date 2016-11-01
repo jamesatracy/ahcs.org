@@ -9,7 +9,7 @@
 		</ol>
 		<div id="carousel-inner" class="carousel-inner">
 			<div class="item active">
-				<img src="<?php echo $this->url("/assets/images/hero-photo-1-fixed.jpg"); ?>" alt="Front of Appling Healthcare building"/>
+				<img src="<?php echo $this->url("/assets/images/hero-photo-8-fixed.jpg"); ?>" alt="Front of Appling Healthcare building"/>
 			</div>
 			<div class="item">
 				<img src="<?php echo $this->url("/assets/images/hero-photo-6-fixed.jpg"); ?>" alt="MRI machine"/>
